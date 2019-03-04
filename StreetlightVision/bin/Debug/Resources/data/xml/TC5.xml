@@ -31,6 +31,7 @@
     <Geozone2>Energy Data Area</Geozone2>
   </TS5_7_1>
   <TS5_8_1>
-    <Geozone>Energy Data Area</Geozone>
+    <Geozone1>Alarm Area</Geozone1>
+    <Geozone2>Automation</Geozone2>
   </TS5_8_1>
 </TC5>

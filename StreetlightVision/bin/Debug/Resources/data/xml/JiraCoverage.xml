@@ -57,7 +57,7 @@
     <Geozone>Energy Data Area</Geozone>
   </SLV_1071>
   <SLV_1681>
-    <ExpectedExportHeader>id;name;geoZoneId;triggerConditionImplClassName;alarmStateChangeActionImplClassNames;triggerCondition.hoursDelay;newAlarmWhenAcknowledged;triggerCondition.fullFilledMessageTemplate;action[0].from;alarmName;alarmPriority;action[0].subject;autoAcknowledge;refreshRate;action[0].to;action[0].message;disabled;triggerCondition.controllerStrIds</ExpectedExportHeader>
+    <ExpectedExportHeader>id;geoZoneId;triggerConditionImplClassName;alarmStateChangeActionImplClassNames;newAlarmWhenAcknowledged;alarmPriority;autoAcknowledge;refreshRate</ExpectedExportHeader>
   </SLV_1681>
   <SLV_1659>
     <Alarm controller="Alarm Area Controller [alrmctrl]" refreshRate="30 secondes" toEmail="Default Test User slv-hcmcqa@qualitusvn.com" />
