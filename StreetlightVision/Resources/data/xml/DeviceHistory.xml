@@ -1,0 +1,29 @@
+<DeviceHistory>
+  <Common>
+    <GridColumns>Address 1,Unique address,Dimming group,Configuration status,Install status,Config status msg,TalqAddress,Lamp wattage (W),Lamp Type,Address 2,Ballast brand,Ballast type,Bracket brand,Bracket color,Bracket model,Bracket type,Calendar changed,City,Color code,Comment,Controller ID,Controller install date,Dimming interface,Fixed saved power,Identifier,Lamp install date,Light distribution,Luminaire brand,Luminaire install date,Luminaire model,Luminaire type,Map number,Orientation,Pole color code,Pole height,Pole install date,Pole material,Pole or head install,Pole shape,Pole status,Pole type,Software version,Status,Type of ground fixing,Zip code,2D shift,Latitude,Longitude,Relay1CommandMode,Relay1Level,Relay1State</GridColumns>
+  </Common>
+  <DE_08>
+    <Device>Automation\All device types\New Streetlight</Device>
+  </DE_08>
+  <DE_09>
+    <Geozone>Automation\All device types</Geozone>
+  </DE_09>
+  <DE_13>
+    <Geozone>Real Time Control Area</Geozone>
+  </DE_13>
+  <DE_14>
+    <Geozone>Real Time Control Area</Geozone>
+  </DE_14>
+  <DE_16>
+    <Geozone>Real Time Control Area</Geozone>
+  </DE_16>
+  <DE_18>
+    <OlsonTimeZones>      
+      <TimeZone>Europe/Paris</TimeZone>
+      <TimeZone>Asia/Tashkent</TimeZone>
+      <TimeZone>America/Mexico_City</TimeZone>
+      <TimeZone>America/Anchorage</TimeZone>
+      <TimeZone>Asia/Shanghai</TimeZone>
+    </OlsonTimeZones>
+  </DE_18>
+</DeviceHistory>

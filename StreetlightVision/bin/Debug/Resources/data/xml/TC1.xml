@@ -1,0 +1,227 @@
+<TC1>
+  <TS1_1_1>
+    <English>
+      <Header>Sign In</Header>
+      <ForgotPassword>Forgot password?</ForgotPassword>
+      <Username>Username</Username>  
+      <Password>Password</Password>  
+    </English>    
+    <French>
+      <Header>Se Connecter</Header>
+      <ForgotPassword>Mot de Passe Oublié ?</ForgotPassword>
+      <Username>Nom d'utilisateur</Username>  
+      <Password>Mot de Passe</Password>  
+    </French>
+  </TS1_1_1>
+  <TS1_4_1>
+    <Title>SLV Central Management Software</Title>
+    <Version>7.8.0</Version>
+    <Copyright>Copyright Streetlight.Vision 2006 - {0}</Copyright>
+  </TS1_4_1>
+  <TS1_7_1>
+    <Skins>
+      <Skin>aucklandtransport</Skin>
+      <Skin>byes</Skin>
+      <Skin>cie</Skin>
+      <Skin>dazzletek</Skin>
+      <Skin>enlight</Skin>
+      <Skin>fpl</Skin>
+      <Skin>lumen</Skin>
+      <Skin>miami</Skin>
+      <Skin>streetlight</Skin>
+    </Skins>
+    <LanguageCodes>
+      <LanguageCode>en-US</LanguageCode>
+      <LanguageCode>en-GB</LanguageCode>
+      <LanguageCode>fr-FR</LanguageCode>
+      <LanguageCode>es-ES</LanguageCode>
+      <LanguageCode>de-DE</LanguageCode>
+      <LanguageCode>zh-CN</LanguageCode>
+      <LanguageCode>de-DE</LanguageCode>
+      <LanguageCode>fr-FR</LanguageCode>
+      <LanguageCode>en-US</LanguageCode>
+    </LanguageCodes>
+  </TS1_7_1>
+  <TS1_10_1>
+    <BlockAction>Commission a controller</BlockAction>
+  </TS1_10_1>
+  <TS1_10_2>
+    <BlockAction>Delete a device</BlockAction>
+  </TS1_10_2>
+  <TS1_10_3>
+    <BlockAction>Delete a geozone</BlockAction>
+  </TS1_10_3>
+  <TS1_10_4>
+    <BlockAction>Execute a command on a list of devices</BlockAction>
+  </TS1_10_4>
+  <TS1_10_5>
+    <BlockAction>Execute a command on one device</BlockAction>
+  </TS1_10_5>
+  <TS1_10_6>
+    <BlockAction>Exit from manual mode on a segment controller</BlockAction>
+  </TS1_10_6>  
+  <TS1_10_7>
+    <BlockAction>Exit manual mode on a device</BlockAction>
+  </TS1_10_7>
+  <TS1_10_8>
+    <BlockAction>Exit manual mode on a list of devices</BlockAction>
+  </TS1_10_8>
+  <TS1_10_9>
+    <BlockAction>Replace a lamp</BlockAction>
+  </TS1_10_9>
+  <TS1_10_10>
+    <BlockAction>Replace a Light Point Controller</BlockAction>
+  </TS1_10_10>
+  <TS1_10_11>
+    <BlockAction>Send a Switch ON command to a device</BlockAction>
+  </TS1_10_11>
+  <TS1_10_12>
+    <BlockAction>Send a Switch OFF command to a device</BlockAction>
+  </TS1_10_12>
+  <TS1_10_13>
+    <BlockAction>Send real-time commands to a group of light points</BlockAction>
+  </TS1_10_13>
+  <TS1_10_14>
+    <BlockAction>Send real-time commands to a light point</BlockAction>
+  </TS1_10_14>
+  <TS1_10_15>
+    <BlockAction>Switch a segment controller output</BlockAction>
+  </TS1_10_15>  
+  <TS1_10_16>
+    <BlockAction>Synchronize segment controller’s clock</BlockAction> 
+  </TS1_10_16>
+  <TS1_10_17>
+    <GeoZone>Automation</GeoZone>
+    <AnyGeoZone>Remove GeoZone</AnyGeoZone>
+    <BlockAction>Update a geozone</BlockAction> 
+  </TS1_10_17>
+  <TS1_10_18>
+    <BlockAction>Commission calendar</BlockAction> 
+  </TS1_10_18>
+   <TS1_10_19>
+    <BlockAction>Commission device</BlockAction> 
+  </TS1_10_19>
+  <TS1_10_20>
+    <BlockAction>Delete multiple devices at one</BlockAction>
+  </TS1_10_20>
+  <TS1_10_21>
+    <BlockAction>Import *.csv or *.sdp file</BlockAction>
+  </TS1_10_21>
+  <TS1_10_22>
+    <BlockAction>Modify calendar</BlockAction>
+  </TS1_10_22>
+  <TS1_10_23>
+    <BlockAction>Modify control program</BlockAction>
+    <ControlPrograms>
+      <Name>SLV-VN Advanced mode</Name>
+      <Name>SLV-VN Always OFF</Name>
+      <Name>SLV-VN Always ON</Name>
+      <Name>SLV-VN Astro ON OFF</Name>
+      <Name>SLV-VN Astro ON OFF fixed time</Name>
+      <Name>SLV-VN Day fixed time events</Name>
+    </ControlPrograms>  
+</TS1_10_23>
+  <TS1_10_24>
+    <Geozone>Automation\All device types</Geozone>    
+    <BlockAction>Modify device's inventory</BlockAction>
+  </TS1_10_24>
+  <TS1_10_25>
+    <BlockAction>Allow SchedulerManager Advanced Mode</BlockAction>
+    <ControlProgramAdvancedMode>SLV-VN Advanced mode</ControlProgramAdvancedMode>
+    <ControlProgramsNotAdvancedMode>      
+      <Name>SLV-VN Always OFF</Name>
+      <Name>SLV-VN Always ON</Name>
+      <Name>SLV-VN Astro ON OFF</Name>
+      <Name>SLV-VN Astro ON OFF fixed time</Name>
+      <Name>SLV-VN Day fixed time events</Name>
+    </ControlProgramsNotAdvancedMode>
+    <Templates>
+      <Name>Astro ON/OFF</Name>
+      <Name>Astro ON/OFF and fixed time events</Name>
+      <Name>Always ON</Name>
+      <Name>Always OFF</Name>
+      <Name>Day fixed time events</Name>
+      <Name>Advanced mode</Name>
+    </Templates>    
+  </TS1_10_25>
+  <TS1_11_1>
+    <RTC_GeoZone>Real Time Control Area</RTC_GeoZone>
+    <RTC_Devices>
+      <Device>Telematics 02</Device>
+      <Device>Telematics 03</Device>
+    </RTC_Devices>
+    <RTC_Controller>Test Controller</RTC_Controller>
+    <RTC_Requests>
+      <Request>/api/dimming/executeCommand</Request>
+      <Request>/api/controller/exitOutputManualMode</Request>
+      <Request>/api/dimming/exitManualModes</Request>
+      <Request>/api/controller/switchControllerOutput</Request>
+      <Request>/api/controller/setSystemTime</Request>
+    </RTC_Requests>    
+    <RTC_ExpectedUnauthorizedAction>
+      <UnauthorizedAction>SLVControllerAPI!exitOutputManualMode</UnauthorizedAction>
+      <UnauthorizedAction>SLVControllerAPI!switchControllerOutput</UnauthorizedAction>      
+    </RTC_ExpectedUnauthorizedAction>    
+    <EI_GeoZone>Automation\Common</EI_GeoZone>    
+    <EI_Controller>DevCtrl A</EI_Controller>
+    <EI_GeoZoneRemove>Automation\Remove GeoZone</EI_GeoZoneRemove>
+    <EI_GeoZoneAllTypes>Automation\All device types</EI_GeoZoneAllTypes>
+    <UniqueAddress>9999</UniqueAddress>
+    <ControlProgramAdvancedMode>SLV-VN Advanced mode</ControlProgramAdvancedMode>
+      <ControlProgramsNotAdvancedMode>      
+        <Name>SLV-VN Always OFF</Name>
+        <Name>SLV-VN Always ON</Name>
+        <Name>SLV-VN Astro ON OFF</Name>
+        <Name>SLV-VN Astro ON OFF fixed time</Name>
+        <Name>SLV-VN Day fixed time events</Name>
+      </ControlProgramsNotAdvancedMode>
+      <Templates>
+        <Name>Astro ON/OFF</Name>
+        <Name>Astro ON/OFF and fixed time events</Name>
+        <Name>Always ON</Name>
+        <Name>Always OFF</Name>
+        <Name>Day fixed time events</Name>
+        <Name>Advanced mode</Name>
+      </Templates> 
+  </TS1_11_1>  
+  <TS1_12_1>
+    <ProfileA>
+      <ProfileName>Profile A</ProfileName>
+      <LanguageCode>fr_FR</LanguageCode>
+      <Skin>cie</Skin>
+      <User>UserA</User>
+      <Password>Password0~</Password>
+      <Email>userA@gmail.com</Email>
+    </ProfileA>
+    <ProfileB>
+      <ProfileName>Profile B</ProfileName>
+      <LanguageCode>de_DE</LanguageCode>
+      <Skin>lumen</Skin>
+      <User>UserB</User>
+      <Password>Password0~</Password>
+      <Email>userB@gmail.com</Email>
+    </ProfileB>
+  </TS1_12_1>
+  <TS1_13_1>
+      <GeoZone>Real Time Control Area</GeoZone>
+      <Streetlight>Telematics 01</Streetlight>
+  </TS1_13_1>
+  <TS1_14_1>
+      <SearchCity>
+        <City>New York</City>
+        <City>Paris</City>
+      </SearchCity>      
+  </TS1_14_1>
+  <TS1_15_1>
+      <GeoZone>Real Time Control Area</GeoZone>
+      <Controller>Smartsims</Controller>
+  </TS1_15_1>
+  <TS1_16_1>
+    <GeoZones>
+      <GeoZone>Real Time Control Area</GeoZone>
+      <GeoZone>Alarm Area</GeoZone>
+      <GeoZone>Energy Data Area</GeoZone>
+      <GeoZone>Automation</GeoZone>
+    </GeoZones>
+  </TS1_16_1>
+</TC1>

@@ -1,0 +1,888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NUnit3TestAdapter.3.12.0\build\net35\NUnit3TestAdapter.props" Condition="Exists('..\packages\NUnit3TestAdapter.3.12.0\build\net35\NUnit3TestAdapter.props')" />
+  <Import Project="..\packages\NUnit.3.11.0\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.11.0\build\NUnit.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BAC9959B-489B-495B-AA85-DA2FD789F1A0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StreetlightVision</RootNamespace>
+    <AssemblyName>StreetlightVision</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoItX3.Assembly, Version=3.0.0.0, Culture=neutral, PublicKeyToken=a646454c8d475470, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoItX.Dotnet.3.3.14.2\lib\AutoItX3.Assembly.dll</HintPath>
+    </Reference>
+    <Reference Include="BasicFormatsForCore, Version=2.6.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FiddlerCore.4.6.2.0\lib\net40\BasicFormatsForCore.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="BCMakeCert, Version=2.0.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FiddlerCore.4.6.2.0\lib\net40\BCMakeCert.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CertMaker, Version=4.5.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FiddlerCore.4.6.2.0\lib\net40\CertMaker.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FiddlerCore4, Version=4.6.2.0, Culture=neutral, PublicKeyToken=67cb91587178ac5a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FiddlerCore.4.6.2.0\lib\net40\FiddlerCore4.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.8.12.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.8.12\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Magick.NET-Q16-AnyCPU, Version=7.9.0.0, Culture=neutral, PublicKeyToken=2004825badfa91ec, processorArchitecture=MSIL">
+      <HintPath>..\packages\Magick.NET-Q16-AnyCPU.7.9.0.2\lib\net40\Magick.NET-Q16-AnyCPU.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.11.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.11.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="S22.Imap, Version=3.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\S22.ImapWithUTF8.3.6.1\lib\net40\S22.Imap.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SeleniumExtras.PageObjects, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetSeleniumExtras.PageObjects.3.11.0\lib\net45\SeleniumExtras.PageObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="SeleniumExtras.WaitHelpers, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetSeleniumExtras.WaitHelpers.3.11.0\lib\net45\SeleniumExtras.WaitHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Sikuli4Net, Version=1.0.5319.36348, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sikuli4Net.1.0.6\lib\Sikuli4Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.141.0\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.141.0\lib\net45\WebDriver.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="Zlib.Portable, Version=1.11.0.0, Culture=neutral, PublicKeyToken=431cba815f6a8b5b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zlib.Portable.Signed.1.11.0\lib\portable-net4+sl5+wp8+win8+wpa81+MonoTouch+MonoAndroid\Zlib.Portable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\DeviceModel.cs" />
+    <Compile Include="Models\GeozoneFailuresMonitorModel.cs" />
+    <Compile Include="Models\TestDataModel.cs" />
+    <Compile Include="Models\CommandModel.cs" />
+    <Compile Include="Models\UserModel.cs" />
+    <Compile Include="Models\GeozoneModel.cs" />
+    <Compile Include="Pages\AlarmManagerPage.cs" />
+    <Compile Include="Pages\BackOfficePage.cs" />
+    <Compile Include="Pages\DeviceHistoryPage.cs" />
+    <Compile Include="Pages\ResetPasswordPage.cs" />
+    <Compile Include="Pages\LogoutPage.cs" />
+    <Compile Include="Pages\UI\Panels\CabinetControllerWidgetPanel.cs" />
+    <Compile Include="Pages\UI\Panels\ImportCommissionPanel.cs" />
+    <Compile Include="Pages\UI\Panels\MapSearchPanel.cs" />
+    <Compile Include="Pages\UI\Panels\ReplaceNodesPanel.cs" />
+    <Compile Include="Pages\UI\Panels\RealTimeBatchPanel.cs" />
+    <Compile Include="Pages\UI\Panels\CalendarControlProgramsPopupPanel.cs" />
+    <Compile Include="Pages\UI\Panels\ControlProgramCommandTypePopupPanel.cs" />
+    <Compile Include="Pages\UI\Panels\MultipleDevicesEditorPanel.cs" />
+    <Compile Include="Pages\UI\Panels\DeviceWidgetPanel.cs" />
+    <Compile Include="Pages\UI\Panels\CommissionPanel.cs" />
+    <Compile Include="Pages\UI\Panels\ExportPanel.cs" />
+    <Compile Include="Pages\UI\Panels\ElectricalCounterEditorPanel.cs" />
+    <Compile Include="Pages\UI\Panels\DeviceClusterPopupPanel.cs" />
+    <Compile Include="Pages\UI\Panels\CabinetControllerEditorPanel.cs" />
+    <Compile Include="Pages\UI\Panels\SwitchEditorPanel.cs" />
+    <Compile Include="Pages\UI\Panels\SwitcherOverlayPanel.cs" />
+    <Compile Include="Pages\UI\Panels\BackOfficeDetailsPanel.cs" />
+    <Compile Include="Pages\UI\Panels\BackOfficeOptionsPanel.cs" />
+    <Compile Include="Pages\UI\Panels\DeviceHistoryPanel.cs" />
+    <Compile Include="Pages\UI\Panels\DeviceEditorPanel.cs" />
+    <Compile Include="Pages\UI\Panels\ImportPanel.cs" />
+    <Compile Include="Pages\UI\Panels\WeatherLocationPanel.cs" />
+    <Compile Include="Pages\UI\Panels\GeozoneTreeWidgetPanel.cs" />
+    <Compile Include="Pages\UI\Panels\InformationWidgetPanel.cs" />
+    <Compile Include="Pages\UI\Panels\StatusWidgetPanel.cs" />
+    <Compile Include="Pages\UI\Panels\InputsOutputsWidgetPanel.cs" />
+    <Compile Include="Pages\UI\Panels\SearchResultsGeozonePanel.cs" />
+    <Compile Include="Pages\UI\Panels\MultipleStreetlightsWidgetPanel.cs" />
+    <Compile Include="Pages\WorkOrdersPage.cs" />
+    <Compile Include="Pages\BatchControlPage.cs" />
+    <Compile Include="Pages\DataHistoryPage.cs" />
+    <Compile Include="Pages\FailureAnalysisPage.cs" />
+    <Compile Include="Pages\AlarmsPage.cs" />
+    <Compile Include="Pages\IWaitable.cs" />
+    <Compile Include="Pages\ControlCenterlPage.cs" />
+    <Compile Include="Pages\ReportManagerPage.cs" />
+    <Compile Include="Pages\SchedulingManagerPage.cs" />
+    <Compile Include="Pages\UI\Dialog.cs" />
+    <Compile Include="Pages\UI\Panels\CalendarEditorPanel.cs" />
+    <Compile Include="Pages\UI\Panels\CalendarEditorItemsPopupPanel.cs" />
+    <Compile Include="Pages\UI\Panels\ControlCenterMonitoringSettingPanel.cs" />
+    <Compile Include="Pages\UI\Panels\ControlCenterMonitoringPanel.cs" />
+    <Compile Include="Pages\UI\Panels\ControlProgramItemsPopupPanel.cs" />
+    <Compile Include="Pages\UI\Panels\FailureTrackingDetailsPanel.cs" />
+    <Compile Include="Pages\UI\Panels\AlarmEditorPanel.cs" />
+    <Compile Include="Pages\UI\Panels\ControlProgramEditorPanel.cs" />
+    <Compile Include="Pages\UI\Panels\SchedulingManagerPanel.cs" />
+    <Compile Include="Pages\UI\Panels\ReportEditorPanel.cs" />
+    <Compile Include="Pages\UI\Panels\CommissionPopupPanel.cs" />
+    <Compile Include="Pages\UI\Panels\UserListPanel.cs" />
+    <Compile Include="Pages\UI\Panels\UserDetailsPanel.cs" />
+    <Compile Include="Pages\UI\Panels\UserProfileDetailsPanel.cs" />
+    <Compile Include="Pages\UI\Panels\UserProfileListPanel.cs" />
+    <Compile Include="Pages\FailureTrackingPage.cs" />
+    <Compile Include="Pages\UsersPage.cs" />
+    <Compile Include="Pages\RealTimeControlPage.cs" />
+    <Compile Include="Pages\LogViewerPage.cs" />
+    <Compile Include="Pages\AdvancedSearchPage.cs" />
+    <Compile Include="Pages\UI\Panels\ControllerWidgetPanel.cs" />
+    <Compile Include="Pages\UI\Panels\SunriseSunsetTimesPopupPanel.cs" />
+    <Compile Include="Pages\UI\Panels\StreetlightWidgetPanel.cs" />
+    <Compile Include="Pages\UI\Panels\DuplicateEquipmentPanel.cs" />
+    <Compile Include="Pages\UI\Panels\DeviceWidgetPanelBase.cs" />
+    <Compile Include="Pages\UI\Panels\FiltersPanel.cs" />
+    <Compile Include="Pages\UI\Panels\PhotoPanel.cs" />
+    <Compile Include="Pages\UI\Panels\ControllerEditorPanel.cs" />
+    <Compile Include="Pages\UI\Panels\UserTreePanel.cs" />
+    <Compile Include="Pages\UI\Panels\ReplaceNodePanel.cs" />
+    <Compile Include="Pages\UI\Panels\SearchWizardPopupPanel.cs" />
+    <Compile Include="Pages\UI\Panels\EnergySupplierPanel.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Extensions\IWebElementExtensions.cs" />
+    <Compile Include="Extensions\Wait.cs" />
+    <Compile Include="Models\Models.cs" />
+    <Compile Include="Pages\DeviceLifetimePage.cs" />
+    <Compile Include="Pages\InstallationPage.cs" />
+    <Compile Include="Pages\MonthlyEnergySavingsPage.cs" />
+    <Compile Include="Pages\DesktopPage.cs" />
+    <Compile Include="Pages\DashboardPage.cs" />
+    <Compile Include="Pages\InventoryVerificationPage.cs" />
+    <Compile Include="Pages\EquipmentInventoryPage.cs" />
+    <Compile Include="Pages\EnergyPage.cs" />
+    <Compile Include="Pages\LoginPage.cs" />
+    <Compile Include="Pages\UI\AppBar.cs" />
+    <Compile Include="Pages\UI\Panels\AboutPanel.cs" />
+    <Compile Include="Pages\UI\Panels\LampTypePanel.cs" />
+    <Compile Include="Pages\UI\Panels\MacAddressPanel.cs" />
+    <Compile Include="Pages\UI\Panels\NewDevicePanel.cs" />
+    <Compile Include="Pages\UI\Panels\StorePanel.cs" />
+    <Compile Include="Pages\UI\Panels\ChangeMyPasswordPanel.cs" />
+    <Compile Include="Pages\UI\Panels\SettingsPanel.cs" />
+    <Compile Include="Pages\UI\Panels\GraphPanel.cs" />
+    <Compile Include="Pages\UI\Panels\LastValuesPanel.cs" />
+    <Compile Include="Pages\UI\Panels\GeozoneEditorPanel.cs" />
+    <Compile Include="Pages\UI\Panels\NodeEditorPanelBase.cs" />
+    <Compile Include="Pages\UI\Panels\GeozoneTreePopupPanel.cs" />
+    <Compile Include="Pages\UI\Panels\GeozoneTreeMainPanel.cs" />
+    <Compile Include="Pages\UI\Panels\GridPanel.cs" />
+    <Compile Include="Pages\UI\Map.cs" />
+    <Compile Include="Pages\UI\PanelBase.cs" />
+    <Compile Include="Pages\PageBase.cs" />
+    <Compile Include="Pages\UI\Panels\StreetlightEditorPanel.cs" />
+    <Compile Include="Pages\UI\Panels\InstallationPopupPanel.cs" />
+    <Compile Include="Pages\UI\Panels\VerificationPopupPanel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\Acceptance\TC1Tests.cs" />
+    <Compile Include="Tests\Acceptance\TC2Tests.cs" />
+    <Compile Include="Tests\Acceptance\TC3Tests.cs" />
+    <Compile Include="Tests\Acceptance\TC4Tests.cs" />
+    <Compile Include="Tests\Acceptance\TC5Tests.cs" />
+    <Compile Include="Tests\Coverage\Apps\BatchControlAppTests.cs" />
+    <Compile Include="Tests\Coverage\Apps\DataHistoryAppTests.cs" />
+    <Compile Include="Tests\Coverage\Apps\AlarmTests.cs" />
+    <Compile Include="Tests\Coverage\Apps\UserAppTests.cs" />
+    <Compile Include="Tests\Coverage\Apps\InstallationAppTests.cs" />
+    <Compile Include="Tests\Coverage\Apps\RealtimeControlAppTests.cs" />
+    <Compile Include="Tests\Coverage\Apps\DeviceHistoryAppTests.cs" />
+    <Compile Include="Tests\Coverage\Apps\FailureTrackingAppTests.cs" />
+    <Compile Include="Tests\Coverage\Apps\BackOfficeAppTests.cs" />
+    <Compile Include="Tests\Coverage\Apps\AdvancedSearchAppTests.cs" />
+    <Compile Include="Tests\Coverage\Apps\SchedulingManagerAppTests.cs" />
+    <Compile Include="Tests\Coverage\Apps\ReportManagerAppTests.cs" />
+    <Compile Include="Tests\Coverage\Apps\EquipmentInventoryAppTests.cs" />
+    <Compile Include="Tests\Coverage\Widgets\EnvironmentalSensorWidgetTests.cs" />
+    <Compile Include="Tests\Coverage\Widgets\GeozoneFailuresMonitorWidgetTests.cs" />
+    <Compile Include="Tests\Coverage\Widgets\WeatherWidgetTests.cs" />
+    <Compile Include="Tests\Jira\BasedOffDefectsTests.cs" />
+    <Compile Include="Tests\DataSetup\TestingDataInitializer.cs" />
+    <Compile Include="Tests\DataSetup\TestingDataCleaner.cs" />
+    <Compile Include="Tests\Smoke\SmokeTests.cs" />
+    <Compile Include="Tests\TestBase.cs" />
+    <Compile Include="Utilities\Browser.cs" />
+    <Compile Include="Utilities\WebDriverContext.cs" />
+    <Compile Include="Utilities\CSVUtility.cs" />
+    <Compile Include="Utilities\ImageUtility.cs" />
+    <Compile Include="Utilities\JSUtility.cs" />
+    <Compile Include="Utilities\ElementUtility.cs" />
+    <Compile Include="Utilities\EmailUtility.cs" />
+    <Compile Include="Extensions\BasicExtensions.cs" />
+    <Compile Include="Utilities\FiddlerUtility.cs" />
+    <Compile Include="Utilities\FtpUtility.cs" />
+    <Compile Include="Utilities\GenericOperation.cs" />
+    <Compile Include="Utilities\HtmlUtility.cs" />
+    <Compile Include="Utilities\SikuliUtility.cs" />
+    <Compile Include="Utilities\SLVHelper.cs" />
+    <Compile Include="Utilities\WinApiUtility.cs" />
+    <Compile Include="Utilities\XmlUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExternalTools\sikulirestapi-1.0.jar" />
+    <Content Include="Resources\data\xml\BatchControl.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\DataHistory.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\EnvironmentalSensor.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\GeozoneFailuresMonitor.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\Installation.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\DeviceHistory.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\BackOffice.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\JiraCoverage.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\AdvancedSearch.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\data\xml\FailureTracking.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\Alarm.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\TestingCommonData.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\EquipmentInventory.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\data\xml\RealtimeControl.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\SchedulingManager.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\SMOKE.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\TC1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\data\xml\TC2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\data\xml\ReportManager.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\TC3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\data\xml\TC4.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\data\xml\TC5.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\User.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\xml\TestingUsers.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\img\apps\Advanced Search\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Advanced Search\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Advanced Search\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Alarm Manager\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Alarm Manager\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Alarm Manager\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Alarms\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Alarms\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Alarms\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Batch Control\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Batch Control\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Batch Control\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Control Center\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Control Center\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Control Center\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Dashboard\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Dashboard\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Dashboard\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Data history\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Data history\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Data history\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Device History\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Device History\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Device History\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Lifetime\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Lifetime\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Lifetime\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Digital Panel\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Digital Panel\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Digital Panel\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Energy\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Energy\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Energy\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Equipment Inventory\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Equipment Inventory\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Equipment Inventory\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Failure Analysis\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Failure Analysis\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Failure Analysis\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Failure Tracking\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Failure Tracking\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Failure Tracking\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Installation\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Installation\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Installation\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Inventory Verification\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Inventory Verification\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Inventory Verification\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Log Viewer\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Log Viewer\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Log Viewer\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Monthly Energy Saving\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Monthly Energy Saving\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Monthly Energy Saving\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Real-time Control\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Real-time Control\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Real-time Control\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Report Manager\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Report Manager\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Report Manager\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Scheduling Manager\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Scheduling Manager\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Scheduling Manager\moonIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Scheduling Manager\sunIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Scheduling Manager\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Scheduling Manager\timeIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Users\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Users\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Users\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Work Orders\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Work Orders\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\Work Orders\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\browsers\Chrome\SLV_1807_GeozoneB.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\browsers\Chrome\SLV_1807_GeozoneB_FilteringOff.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\browsers\Chrome\SLV_1807_GeozoneC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\browsers\IE\AllowOnce.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\browsers\IE\Save.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\browsers\IE\SLV_1807_GeozoneB.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\browsers\IE\SLV_1807_GeozoneB_FilteringOff.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\browsers\IE\SLV_1807_GeozoneC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\audio player.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\building.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\camera ip.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\city object.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\controller device.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\electrical counter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\environmental sensor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\inputs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\nature.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\network component.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\occupancy sensor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\outputs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\parking place.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\streetlight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\white streetlight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\switch device.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\tank.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\transport signage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\vehicle charging station.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\vehicle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\waste container.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\devices\weather station.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\map_device\bg_blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\map_device\bg_gray.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\map_device\bg_green.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\map_device\bg_light_blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\map_device\bg_light_gray.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\map_device\bg_orange.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\map_device\bg_red.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\map_device\bg_yellow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Camera\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\CircutorCVMMeter\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Clock\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Clock\screenshot_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\ElectricalMeter\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\ElectricalMeter\screenshot_1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\ElectricalMeter\screenshot_2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\ElectricalMeter\screenshot_3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Gateway\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Gateway\screenshot_1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Gateway\screenshot_2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Gateway\screenshot_3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\GFM05\GREEN_33_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\GFM05\GREEN_33_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\GFM05\ORANGE_33_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\GFM05\ORANGE_33_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\GFM05\ORANGE_50_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\GFM05\RED_100_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\GFM05\RED_33_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\GFM05\RED_33_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\GFM04\RED_33.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\GFM04\RED_50.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\GFM04\ORANGE_50.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\GFM04\ORANGE_33.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\GFM04\RED_100.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\GFM04\GREEN_33.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\GFM05\RED_50_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\IoTRouterStatus\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\LuminaireController\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\LuminaireController\screenshot_1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\LuminaireController\screenshot_2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\LuminaireController\screenshot_3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\PollutionSensorWidget\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Securitywidget\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Spoonywidget\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\SunriseSunsetTimes\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\VehiculeChargingStation\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\VehiculeChargingStation\screenshot_1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\VehiculeChargingStation\screenshot_2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\VehiculeChargingStation\screenshot_3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Weather\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Weather\screenshot_1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\XCamMonitor\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\js\jshelper.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\js\native_js_drag_and_drop_helper.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ExternalTools\script-to-run-tests.ps1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\data\csv\Alarm1426882-New.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\data\csv\Alarm1426882-Update.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\data\csv\EI80.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\data\csv\SLV-1687.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\json\gmail_api_client_id.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\AutoItX.Dotnet.3.3.14.2\build\AutoItX.Dotnet.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\AutoItX.Dotnet.3.3.14.2\build\AutoItX.Dotnet.targets'))" />
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.MicrosoftDriver.17.17134.0\build\Selenium.WebDriver.MicrosoftDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.MicrosoftDriver.17.17134.0\build\Selenium.WebDriver.MicrosoftDriver.targets'))" />
+    <Error Condition="!Exists('..\packages\NUnit.3.11.0\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit.3.11.0\build\NUnit.props'))" />
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.GeckoDriver.0.23.0.3\build\Selenium.WebDriver.GeckoDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.GeckoDriver.0.23.0.3\build\Selenium.WebDriver.GeckoDriver.targets'))" />
+    <Error Condition="!Exists('..\packages\NUnit3TestAdapter.3.12.0\build\net35\NUnit3TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit3TestAdapter.3.12.0\build\net35\NUnit3TestAdapter.props'))" />
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.ChromeDriver.2.45.0\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.ChromeDriver.2.45.0\build\Selenium.WebDriver.ChromeDriver.targets'))" />
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.IEDriver.3.141.5\build\Selenium.WebDriver.IEDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.IEDriver.3.141.5\build\Selenium.WebDriver.IEDriver.targets'))" />
+  </Target>
+  <Import Project="..\packages\AutoItX.Dotnet.3.3.14.2\build\AutoItX.Dotnet.targets" Condition="Exists('..\packages\AutoItX.Dotnet.3.3.14.2\build\AutoItX.Dotnet.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(SolutionDir)StreetlightVision\ExternalTools\sikulirestapi-1.0.jar"  "$(TargetDir)" /Y /R</PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="..\packages\Selenium.WebDriver.MicrosoftDriver.17.17134.0\build\Selenium.WebDriver.MicrosoftDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.MicrosoftDriver.17.17134.0\build\Selenium.WebDriver.MicrosoftDriver.targets')" />
+  <Import Project="..\packages\Selenium.WebDriver.GeckoDriver.0.23.0.3\build\Selenium.WebDriver.GeckoDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.GeckoDriver.0.23.0.3\build\Selenium.WebDriver.GeckoDriver.targets')" />
+  <Import Project="..\packages\Selenium.WebDriver.ChromeDriver.2.45.0\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.ChromeDriver.2.45.0\build\Selenium.WebDriver.ChromeDriver.targets')" />
+  <Import Project="..\packages\Selenium.WebDriver.IEDriver.3.141.5\build\Selenium.WebDriver.IEDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.IEDriver.3.141.5\build\Selenium.WebDriver.IEDriver.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

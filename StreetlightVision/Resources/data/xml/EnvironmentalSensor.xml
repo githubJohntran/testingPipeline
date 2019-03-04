@@ -1,0 +1,5 @@
+<EnvironmentalSensor>
+  <EnvSensor_01>
+    <Device>Real Time Control Area\Env Sensor 01</Device>
+  </EnvSensor_01>
+</EnvironmentalSensor>

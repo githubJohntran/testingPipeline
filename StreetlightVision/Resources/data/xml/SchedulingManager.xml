@@ -1,0 +1,27 @@
+<SchedulingManager>	
+	<SM07>
+		<TemplateName>SLV-VN Astro ON OFF</TemplateName>
+	</SM07>
+  <SM08>
+    <TemplateName>SLV-VN Astro ON OFF fixed time</TemplateName>
+  </SM08>
+  <SM09>
+    <TemplateName>SLV-VN Always ON</TemplateName>
+  </SM09>
+  <SM10>
+    <TemplateName>SLV-VN Always OFF</TemplateName>
+  </SM10>
+  <SM11>
+    <TemplateName>SLV-VN Day fixed time events</TemplateName>
+  </SM11>
+  <SM12>
+    <TemplateName>SLV-VN Advanced mode</TemplateName>
+  </SM12>
+  <SC_1287>
+    <Calendar>CalFailure</Calendar>
+    <RecordsPerPage>200</RecordsPerPage>    
+  </SC_1287>
+  <SM21>
+    <Controller name="Smartsims commission" id="smartsims-comm" />
+  </SM21>
+</SchedulingManager>

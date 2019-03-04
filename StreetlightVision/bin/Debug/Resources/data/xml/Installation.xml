@@ -1,0 +1,17 @@
+<Installation>
+  <SC_377_02>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </SC_377_02>
+  <SC_377_03>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </SC_377_03>
+  <SC_377_04>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </SC_377_04>
+  <SC_377_05>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </SC_377_05>
+  <SC_377_06>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </SC_377_06>
+</Installation>

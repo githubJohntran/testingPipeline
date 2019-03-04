@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TC4>
+  <TS4_03_01>
+    <Geozone1>GeoZones</Geozone1>
+    <Geozone2>Automation\Nguyen Van Troi Geozone</Geozone2>
+  </TS4_03_01>
+  <TS4_04_01>
+    <Geozone1>Automation\Nguyen Van Troi Geozone</Geozone1>
+    <Geozone2>Energy Data Area</Geozone2>
+  </TS4_04_01>
+  <TS4_11_01>
+    <SearchAttribute>Unique address</SearchAttribute>
+    <SearchOperator>Equal</SearchOperator>
+    <InexistingUniqueAddress>_____INEXISTING_____</InexistingUniqueAddress>
+    <ExistingUniqueAddress>AF0D30FD5F4B</ExistingUniqueAddress>
+  </TS4_11_01>
+  <TS4_13_01>
+    <Geozone>Energy Data Area</Geozone>
+    <AlarmInfo name="Device alarm: multiple failures on multiple devices"
+               type="Device alarm: multiple failures on multiple devices"
+               action="Notify by eMail">
+      <General auto-acknowledge="true" refresh-rate="30 secondes" />
+      <Trigger message="multiple failures on multiple devices" failures="Lamp failure#LampFailure" devices="STL0005#stl0005@flowermarket" />
+      <Actions mail-from="qa@streetlightmonitoring.com" mail-to="Default Test User slv-hcmcqa@qualitusvn.com" mail-subject="{{Alarm.name}}" mail-content="Mail Content: + ${ET} ${ST} ${GZ} ${DEVICE} ${FMS} ${FD} ${FMSIVV}" />
+    </AlarmInfo>
+  </TS4_13_01>
+  <TS4_15_01>
+    <Geozone>Alarm Area</Geozone>
+    <AlarmInfo name="Device alarm: too many failures in an area"
+               type="Device alarm: too many failures in an area"
+               action="Notify by eMail">
+      <General auto-acknowledge="true" refresh-rate="30 secondes" />
+      <Trigger message="multiple failures on multiple devices" failures="Lamp failure#LampFailure" devices="LP10#lp10@alrmctrl" radius="0" threshold="0" />
+      <Actions mail-from="qa@streetlightmonitoring.com" mail-to="Default Test User slv-hcmcqa@qualitusvn.com" mail-subject="{{Alarm.name}}" mail-content="Mail Content: + ${ET} ${ST} ${GZ} ${DEVICE} ${FMS} ${FD} ${FMSIVV}" />
+    </AlarmInfo>
+  </TS4_15_01>
+  <TS4_16_01>
+    <Geozone>Alarm Area</Geozone>
+    <AlarmInfo name="Device alarm: failure ratio in a group"
+               type="Device alarm: failure ratio in a group"
+               action="Notify by eMail">
+      <General auto-acknowledge="true" refresh-rate="30 secondes" />
+      <Trigger message="failure ration in a group" failures="Lamp failure#LampFailure" devices="LP10#lp10@alrmctrl" critical-failure-ratio="0" />
+      <Actions mail-from="qa@streetlightmonitoring.com" mail-to="Default Test User slv-hcmcqa@qualitusvn.com" mail-subject="{{Alarm.name}}" mail-content="Mail Content: + ${ET} ${ST} ${GZ} ${CR} ${FR}" />
+    </AlarmInfo>
+  </TS4_16_01>
+  <TS4_17_01>
+    <AlarmInfo type="Device alarm: data analysis vs previous day"
+               action="Notify by eMail">
+      <General auto-acknowledge="true" refresh-rate="30 secondes" />
+      <Trigger message="data analysis vs previous day" metering="Mains current#Current" ignore-operator="Lower" ignore-value="30" analysis-period="30 minutes" analytic-mode="Average" percentage-difference-trigger="10"  />
+      <Actions mail-from="qa@streetlightmonitoring.com" mail-to="Default Test User slv-hcmcqa@qualitusvn.com" mail-subject="{{Alarm.name}}" />
+    </AlarmInfo>
+  </TS4_17_01>
+  <TS4_18_01>
+    <Geozone>Energy Data Area</Geozone>
+    <AlarmInfo name="Device alarm: no data received"
+               type="Device alarm: no data received"
+               action="Notify by eMail">
+      <General auto-acknowledge="true" refresh-rate="30 secondes" />
+      <Trigger message="no data received" devices="STL0005#stl0005@flowermarket" variables-type="Collected data" critical-delay="2 hours" timestamp-mode="Database update time" critical-ratio="10" />
+      <Actions mail-from="qa@streetlightmonitoring.com" mail-to="Default Test User slv-hcmcqa@qualitusvn.com" mail-subject="{{Alarm.name}}" mail-content="Mail Content: + ${ET} ${ST} ${GZ} ${FDR} ${RATIO}" />
+    </AlarmInfo>
+  </TS4_18_01>
+  <TS4_19_01>
+    <Geozone>Alarm Area</Geozone>
+    <AlarmInfo name="Controller alarm: no data received"
+               type="Controller alarm: no data received"
+               action="Notify by eMail">
+      <General auto-acknowledge="true" refresh-rate="30 secondes" />
+      <Trigger message="no data received" delay="1" controllers="iLON#ilon" />
+      <Actions mail-from="qa@streetlightmonitoring.com" mail-to="Default Test User slv-hcmcqa@qualitusvn.com" mail-subject="{{Alarm.name}}" mail-content="${ET} | ${CN} | ${HD}" />
+    </AlarmInfo>
+  </TS4_19_01>
+  <TS4_20_02>
+    <AlarmInfo name="Controller alarm: ON/OFF times vs previous day"
+               type="Controller alarm: ON/OFF times vs previous day"
+               action="Notify by eMail">
+      <General auto-acknowledge="true" refresh-rate="30 secondes" />
+      <Trigger message="ON/OFF times vs previous day" io="Digital Output 1#DigitalOutput1" delay="10"/>
+      <Actions mail-from="qa@streetlightmonitoring.com" mail-to="Default Test User slv-hcmcqa@qualitusvn.com" mail-subject="{{Alarm.name}}" mail-content="${ET} | ${CN}" />
+    </AlarmInfo>
+  </TS4_20_02>
+  <TS4_21_01>
+    <AlarmInfo name="Controller alarm: last known state of an I/O"
+               type="Controller alarm: last known state of an I/O"
+               action="Notify by eMail">
+      <General auto-acknowledge="true" refresh-rate="30 secondes" />
+      <Trigger message="last known state of an I/O" input-name="Digital Output 1#DigitalOutput1" input-value="ON" />
+      <Actions mail-from="qa@streetlightmonitoring.com" mail-to="Default Test User slv-hcmcqa@qualitusvn.com" mail-subject="{{Alarm.name}}" mail-content="${ET} | ${CN} | ${LT} | ${ST} | ${GZ} | ${CI} | ${IOIVV} | ${IO1IVV}" />
+    </AlarmInfo>
+  </TS4_21_01>
+  <TS4_22_01>
+    <AlarmInfo name="Controller alarm: comparison between two I/Os"
+               type="Controller alarm: comparison between two I/Os"
+               action="Notify by eMail">
+      <General auto-acknowledge="true" refresh-rate="30 secondes" />
+      <Trigger message="comparison between two I/Os" first-io="Digital Output 1#DigitalOutput1" second-io="Digital Output 2#DigitalOutput2" operator="equal to" io-value="ON" />
+      <Actions mail-from="qa@streetlightmonitoring.com" mail-to="Default Test User slv-hcmcqa@qualitusvn.com" mail-subject="{{Alarm.name}}" mail-content="${ET} | ${LT} | ${GZ} | ${ST} | ${CN} | ${CI} | ${IO1IVV} | ${IO2IVV}" />
+    </AlarmInfo>
+  </TS4_22_01>
+  <TS4_23_01>
+    <Geozone>GeoZones</Geozone>
+    <AlarmInfo name="Controller alarm: state of the I/Os in the last hours"
+               type="Controller alarm: state of the I/Os in the last hours"
+               action="Notify by eMail">
+      <General auto-acknowledge="true" refresh-rate="30 secondes" />
+      <Trigger message="state of the I/Os in the last hours" controllers="Flower Market [flowermarket]#flowermarket" input-name="Digital Input 1#DigitalInput1" input-value="OFF" check-hours-interval="1 hour" />
+      <Actions mail-from="qa@streetlightmonitoring.com" mail-to="Default Test User slv-hcmcqa@qualitusvn.com" mail-subject="{{Alarm.name}}" mail-content="Mail Content: + ${ET} ${ST} ${GZ} ${CI} ${CN} ${LT} ${DEVICE} ${IOIVV} ${IO1IVV}" />
+    </AlarmInfo>
+  </TS4_23_01>
+  <TS4_24_01>
+    <AlarmInfo type="Meter alarm: comparison to a trigger" action="Notify by eMail">
+      <General auto-acknowledge="true" refresh-rate="30 secondes" />
+      <Trigger message="comparison to a trigger" metering="Active energy (KWh)#TotalKWHPositive" ignore-operator="Lower" ignore-value="21000" triggering-operator="Greater or equal" triggering-value="21000" t1="1 hour" t2="15 minutes" />
+      <Actions mail-from="qa@streetlightmonitoring.com" mail-to="Default Test User slv-hcmcqa@qualitusvn.com" mail-subject="{{Alarm.name}}" mail-content="${ET} | ${MN}" />
+    </AlarmInfo>
+  </TS4_24_01>
+  <TS4_25_01>
+    <AlarmInfo type="Meter alarm: data analysis vs previous day" action="Notify by eMail">
+      <General auto-acknowledge="true" refresh-rate="30 secondes" />
+      <Trigger message="data analysis versus previous day" metering="Frequency (Hz)#Frequency" ignore-operator="Lower" ignore-value="50" analysis-period="1 hour" analytic-mode="Average" percentage-difference-trigger="10" />
+      <Actions mail-from="qa@streetlightmonitoring.com" mail-to="Default Test User slv-hcmcqa@qualitusvn.com" mail-subject="{{Alarm.name}}" mail-content="${ET} | ${MN}" />
+    </AlarmInfo>
+  </TS4_25_01>
+  <TS4_25_02>
+    <AlarmInfo type="Meter alarm: data analysis vs previous day (at fixed time)"
+               action="Notify by eMail">
+      <General auto-acknowledge="true" refresh-rate="30 secondes" />
+      <Trigger message="data analysis versus previous day (at fixed time)" metering="Active energy (KWh)#TotalKWHPositive" ignore-operator="Lower" ignore-value="30" analytic-mode="Average" percentage-difference-trigger="10"  />
+      <Actions mail-from="qa@streetlightmonitoring.com" mail-to="Default Test User slv-hcmcqa@qualitusvn.com" mail-subject="{{Alarm.name}}" mail-content="${ET} | ${MN}" />
+    </AlarmInfo>
+  </TS4_25_02>
+  <SLV_1275>
+    <Alarm controller="Alarm Area Controller [alrmctrl]" refreshRate="30 secondes" toEmail="Default Test User slv-hcmcqa@qualitusvn.com" />
+  </SLV_1275>
+  <SLV_1687>
+    <ImportedAlarmName>Imported Alarm</ImportedAlarmName>
+    <ImportedFileName>SLV-1687.csv</ImportedFileName>
+  </SLV_1687>
+  <Alarms>
+    <TS4_13_01 name="TS41301" type="Device alarm: multiple failures on multiple device" action="Notify by eMail" auto-acknowledge="true" refresh-rate="30 secondes" failure="Lamp failure#LampFailure" mail-content="${ET} ${ST} ${GZ} ${DEVICE} ${FMS} ${FD} ${FMSIVV}"/>
+    <TS4_15_01 name="TS41501" type="Device alarm: too many failures in an area" action="Notify by eMail" auto-acknowledge="true" refresh-rate="30 secondes" failure="Lamp failure#LampFailure" radius="0" threshold="0" mail-content="${ET} ${ST} ${GZ} ${DEVICE} ${FMS} ${FD} ${FMSIVV}"/>
+    <TS4_16_01 name="TS41601" type="Device alarm: failure ratio in a group" action="Notify by eMail" auto-acknowledge="true" refresh-rate="30 secondes" failure="Lamp failure#LampFailure" critical-failure-ratio="0"  mail-content="${ET} ${ST} ${GZ} ${CR} ${FR}"/>
+    <TS4_17_01 name="TS41701" type="Device alarm: data analysis vs previous day" action="Notify by eMail" auto-acknowledge="true" refresh-rate="30 secondes" metering="Mains current#Current" ignore-operator="Lower" ignore-value="30" analysis-period="30 minutes" analytic-mode="Average" percentage-difference-trigger="10" mail-content=""/>
+    <TS4_18_01 name="TS41801" type="Device alarm: no data received" action="Notify by eMail" auto-acknowledge="true" refresh-rate="30 secondes" metering-id="Current" variables-type="System attributes" critical-delay="2 hours" timestamp-mode="Database update time" critical-ratio="10" mail-content="${ET} ${ST} ${GZ} ${FDR} ${RATIO}"/>
+    <TS4_19_01 name="TS41901" type="Controller alarm: no data received" action="Notify by eMail" auto-acknowledge="true" refresh-rate="30 secondes" metering-id="DigitalInput1" delay="1" mail-content="${ET} | ${CN} | ${HD}"/>
+    <TS4_20_02 name="TS42002" type="Controller alarm: ON/OFF times vs previous day" action="Notify by eMail" auto-acknowledge="true" refresh-rate="30 secondes" io="Digital Output 1#DigitalOutput1" delay="40" mail-content="${ET} | ${CN}"/>
+    <TS4_21_01 name="TS42101" type="Controller alarm: last known state of an I/O" action="Notify by eMail" auto-acknowledge="true" refresh-rate="30 secondes" io="Digital Output 1#DigitalOutput1" value="ON" mail-content="${ET} | ${CN} | ${LT} | ${ST} | ${GZ} | ${CI} | ${IOIVV} | ${IO1IVV}"/>
+    <TS4_22_01 name="TS42201" type="Controller alarm: comparison between two I/Os" action="Notify by eMail" auto-acknowledge="true" refresh-rate="30 secondes" first-io="Digital Output 1#DigitalOutput1" second-io="Digital Output 2#DigitalOutput2" operator="equal to" io-value="ON" mail-content="${ET} | ${LT} | ${GZ} | ${ST} | ${CN} | ${CI} | ${IO1IVV} | ${IO2IVV}"/>
+    <TS4_24_01 name="TS42401" type="Meter alarm: comparison to a trigger" action="Notify by eMail" auto-acknowledge="true" refresh-rate="30 secondes" metering="Active energy (KWh)#TotalKWHPositive" ignore-operator="Lower" ignore-value="50" triggering-operator="Greater or equal" triggering-value="21000" t1="1 hour" t2="15 minutes" mail-content="${ET} | ${MN}"/>
+    <TS4_25_01 name="TS42501" type="Meter alarm: data analysis vs previous day" action="Notify by eMail" auto-acknowledge="true" refresh-rate="30 secondes" metering="Frequency (Hz)#Frequency" ignore-operator="Lower" ignore-value="50" analysis-period="1 hour" analytic-mode="Average" percentage-difference-trigger="10" mail-content="${ET} | ${MN}"/>
+    <TS4_25_02 name="TS42502" type="Meter alarm: data analysis vs previous day (at fixed time)" action="Notify by eMail" auto-acknowledge="true" refresh-rate="30 secondes" metering="Active energy (KWh)#TotalKWHPositive" ignore-operator="Lower" ignore-value="30" analytic-mode="Average" percentage-difference-trigger="10" mail-content="${ET} | ${MN}"/>    
+    <Mail from="qa@streetlightmonitoring.com" to="Default Test User slv-hcmcqa@qualitusvn.com"  />
+  </Alarms>
+</TC4>
+
+<!--
+
+Test Data explanation:
+
+# Test cases which doesn't need test data so far:
+TS4_01_01, TS4_02_01, TS4_08_01
+
+# Test cases which are not implemented due to being ignored
+TS4_06_01, TS4_09_01, TS4_10_01, TS4_12_01: Ignored
+
+# Test cases needs to specify test data
+TS4_03_01:
+- GeozoneWithSubGeozones: name of a geozone which contains sub-geozones
+- GeozoneWithDevicesOnly: name of a geozone which contains only devices (not any sub-geozone)
+
+TS4_04_01, TS4_05_01, TS4_07_01:
+- GeozoneWithSubGeozones: name of a geozone which contains sub-geozones
+- GeozoneWithDevicesOnly: name of a geozone which contains only devices (not any sub-geozone)
+
+TS4_11_01:
+- ExistingUniqueAddress: unique address value of a device
+
+TS4_13_01:
+- GeozoneWithAlarm: name of geozone to create alarm inside
+- DeviceName: name of device to be send failure request
+
+SLV_1275:
+- AlarmName: name of alarm used in this test
+
+SLV_1687:
+- ImportedAlarmName: name of alarm will be imported. It should be found in the first column of the second row in the CSV file specified in ImportFileName tag
+- ImportFileName: file name to import
+
+-->

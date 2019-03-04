@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BAC9959B-489B-495B-AA85-DA2FD789F1A0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StreetlightVision</RootNamespace>
+    <AssemblyName>StreetlightVision</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BasicFormatsForCore, Version=2.6.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FiddlerCore.4.6.2.0\lib\net40\BasicFormatsForCore.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="BCMakeCert, Version=2.0.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FiddlerCore.4.6.2.0\lib\net40\BCMakeCert.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CertMaker, Version=4.5.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FiddlerCore.4.6.2.0\lib\net40\CertMaker.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FiddlerCore4, Version=4.6.2.0, Culture=neutral, PublicKeyToken=67cb91587178ac5a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FiddlerCore.4.6.2.0\lib\net40\FiddlerCore4.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.4.9.5, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.4.9.5\lib\Net45\HtmlAgilityPack.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Magick.NET-Q16-AnyCPU, Version=7.0.0.0, Culture=neutral, PublicKeyToken=2004825badfa91ec, processorArchitecture=MSIL">
+      <HintPath>..\packages\Magick.NET-Q16-AnyCPU.7.0.3.502\lib\net40-client\Magick.NET-Q16-AnyCPU.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="S22.Imap, Version=3.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\S22.ImapWithUTF8.3.6.1\lib\net40\S22.Imap.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sikuli4Net, Version=1.0.5319.36348, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sikuli4Net.1.0.6\lib\Sikuli4Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.0.0\lib\net40\WebDriver.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.0.0\lib\net40\WebDriver.Support.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Zlib.Portable, Version=1.11.0.0, Culture=neutral, PublicKeyToken=431cba815f6a8b5b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zlib.Portable.Signed.1.11.0\lib\portable-net4+sl5+wp8+win8+wpa81+MonoTouch+MonoAndroid\Zlib.Portable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pages\AlarmManagerPage.cs" />
+    <Compile Include="Pages\DataHistoryPage.cs" />
+    <Compile Include="Pages\FailureAnalysisPage.cs" />
+    <Compile Include="Pages\AlarmPage.cs" />
+<<<<<<< HEAD
+    <Compile Include="Pages\SchedulingManagerPage.cs" />
+=======
+    <Compile Include="Pages\IWaitable.cs" />
+>>>>>>> f86f3f78a9d21b8efce08cf6d5e653d3940ac7cc
+    <Compile Include="Pages\ReportManagerPage.cs" />
+    <Compile Include="Pages\UI\Dialog.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\ControlProgramItemsPopupPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\FailureTrackingDetailsPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\AlarmDetailsPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\ControlProgramEditorPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\SchedulingManagerPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\ReportDetailsPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\CommissionPopupPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\UserListPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\UserDetailsPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\UserProfileDetailsPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\UserProfileListPanel.cs" />
+    <Compile Include="Pages\FailureTrackingPage.cs" />
+    <Compile Include="Pages\UsersPage.cs" />
+    <Compile Include="Pages\RealtimeControlPage.cs" />
+    <Compile Include="Pages\LogViewerPage.cs" />
+    <Compile Include="Pages\AdvancedSearchPage.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\ControllerWidgetPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\SunriseSunsetTimesPopupPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\StreetlightWidgetPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\DuplicateEquipmentPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\DeviceWidgetPanelBase.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\FiltersPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\PhotoPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\ControllerDetailsPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\UserTreePanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\ReplaceNodePanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\SearchWizardPopupPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\EnergySupplierPanel.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Extensions\IWebElementExtensions.cs" />
+    <Compile Include="Extensions\Wait.cs" />
+    <Compile Include="Models\Models.cs" />
+    <Compile Include="Pages\DeviceLifetimePage.cs" />
+    <Compile Include="Pages\InstallationPage.cs" />
+    <Compile Include="Pages\MonthlyEnergySavingsPage.cs" />
+    <Compile Include="Pages\DesktopPage.cs" />
+    <Compile Include="Pages\DashboardPage.cs" />
+    <Compile Include="Pages\InventoryVerificationPage.cs" />
+    <Compile Include="Pages\EquipmentInventoryPage.cs" />
+    <Compile Include="Pages\EnergyPage.cs" />
+    <Compile Include="Pages\LoginPage.cs" />
+    <Compile Include="Pages\UI\AppBar.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\AboutPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\LampTypesPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\MacAddressPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\NewDevicePanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\StorePanels.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\ChangeMyPasswordPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\SettingsPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\NewsPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\GraphPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\LastValuesPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\GeozoneDetailsPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Maps\GoogleMap.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\NodeDetailsPanelBase.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\GeozoneTreePopupPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\GeozoneTreeMainPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\GridPanel.cs" />
+    <Compile Include="Pages\UI\MapBase.cs" />
+    <Compile Include="Pages\UI\PanelBase.cs" />
+    <Compile Include="Pages\PageBase.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\StreetlightDetailsPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\InstallationPopupPanel.cs" />
+    <Compile Include="Pages\UI\Implementation\Panels\VerificationPopupPanel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\Acceptance\TC1Tests.cs" />
+    <Compile Include="Tests\Acceptance\TC2Tests.cs" />
+    <Compile Include="Tests\Acceptance\TC3Tests.cs" />
+    <Compile Include="Tests\Acceptance\TC4Tests.cs" />
+    <Compile Include="Tests\Acceptance\TC5Tests.cs" />
+    <Compile Include="Tests\Coverage\Apps\EquipmentInventoryAppTests.cs" />
+    <Compile Include="Tests\Coverage\Widgets\WeatherWidgetTests.cs" />
+    <Compile Include="Tests\Smoke\SmokeTests.cs" />
+    <Compile Include="Tests\TestBase.cs" />
+    <Compile Include="Utilities\CSVUtility.cs" />
+    <Compile Include="Utilities\JSUtility.cs" />
+    <Compile Include="Utilities\SeleniumFactory.cs" />
+    <Compile Include="Utilities\EmailUtility.cs" />
+    <Compile Include="Extensions\StringExtension.cs" />
+    <Compile Include="Utilities\FiddlerUtility.cs" />
+    <Compile Include="Utilities\FtpUtility.cs" />
+    <Compile Include="Utilities\GenericOperation.cs" />
+    <Compile Include="Utilities\HtmlUtility.cs" />
+    <Compile Include="Utilities\SikuliUtility.cs" />
+    <Compile Include="Utilities\SLVHelper.cs" />
+    <Compile Include="Utilities\WinApiUtility.cs" />
+    <Compile Include="Utilities\XmlUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Drivers\chromedriver.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Drivers\IEDriverServer.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Drivers\MicrosoftWebDriver.exe" />
+    <Content Include="ExternalTools\ClickSaveDownload.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\JiraCoverage.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\SMOKE.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\TC1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\TC2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\TC3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\TC4.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\data\TC5.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\AdvancedSearch\dragdrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\AdvancedSearch\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\AdvancedSearch\switchIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\apps\AlarmManager\dragdrop.png" />
+    <Content Include="Resources\img\apps\AlarmManager\icon.light.png" />
+    <Content Include="Resources\img\apps\AlarmManager\switchIcon.png" />
+    <Content Include="Resources\img\apps\Alarms\dragdrop.png" />
+    <Content Include="Resources\img\apps\Alarms\icon.light.png" />
+    <Content Include="Resources\img\apps\Alarms\switchIcon.png" />
+    <Content Include="Resources\img\apps\BatchControl\dragdrop.png" />
+    <Content Include="Resources\img\apps\BatchControl\icon.light.png" />
+    <Content Include="Resources\img\apps\BatchControl\switchIcon.png" />
+    <Content Include="Resources\img\apps\ControlCenter\dragdrop.png" />
+    <Content Include="Resources\img\apps\ControlCenter\icon.light.png" />
+    <Content Include="Resources\img\apps\ControlCenter\switchIcon.png" />
+    <Content Include="Resources\img\apps\Dashboard\dragdrop.png" />
+    <Content Include="Resources\img\apps\Dashboard\icon.light.png" />
+    <Content Include="Resources\img\apps\Dashboard\switchIcon.png" />
+    <Content Include="Resources\img\apps\DataHistory\dragdrop.png" />
+    <Content Include="Resources\img\apps\DataHistory\icon.light.png" />
+    <Content Include="Resources\img\apps\DataHistory\switchIcon.png" />
+    <Content Include="Resources\img\apps\DeviceLifetime\dragdrop.png" />
+    <Content Include="Resources\img\apps\DeviceLifetime\icon.light.png" />
+    <Content Include="Resources\img\apps\DeviceLifetime\switchIcon.png" />
+    <Content Include="Resources\img\apps\DigitalPanel\dragdrop.png" />
+    <Content Include="Resources\img\apps\DigitalPanel\icon.light.png" />
+    <Content Include="Resources\img\apps\DigitalPanel\switchIcon.png" />
+    <Content Include="Resources\img\apps\Energy\dragdrop.png" />
+    <Content Include="Resources\img\apps\Energy\icon.light.png" />
+    <Content Include="Resources\img\apps\Energy\switchIcon.png" />
+    <Content Include="Resources\img\apps\EquipmentInventory\dragdrop.png" />
+    <Content Include="Resources\img\apps\EquipmentInventory\icon.light.png" />
+    <Content Include="Resources\img\apps\EquipmentInventory\switchIcon.png" />
+    <Content Include="Resources\img\apps\FailureAnalysis\dragdrop.png" />
+    <Content Include="Resources\img\apps\FailureAnalysis\icon.light.png" />
+    <Content Include="Resources\img\apps\FailureAnalysis\switchIcon.png" />
+    <Content Include="Resources\img\apps\FailureTracking\dragdrop.png" />
+    <Content Include="Resources\img\apps\FailureTracking\icon.light.png" />
+    <Content Include="Resources\img\apps\FailureTracking\switchIcon.png" />
+    <Content Include="Resources\img\apps\Installation\dragdrop.png" />
+    <Content Include="Resources\img\apps\Installation\icon.light.png" />
+    <Content Include="Resources\img\apps\Installation\switchIcon.png" />
+    <Content Include="Resources\img\apps\InventoryVerification\dragdrop.png" />
+    <Content Include="Resources\img\apps\InventoryVerification\icon.light.png" />
+    <Content Include="Resources\img\apps\InventoryVerification\switchIcon.png" />
+    <Content Include="Resources\img\apps\LogViewer\dragdrop.png" />
+    <Content Include="Resources\img\apps\LogViewer\icon.light.png" />
+    <Content Include="Resources\img\apps\LogViewer\switchIcon.png" />
+    <Content Include="Resources\img\apps\MonthlyEnergySaving\dragdrop.png" />
+    <Content Include="Resources\img\apps\MonthlyEnergySaving\icon.light.png" />
+    <Content Include="Resources\img\apps\MonthlyEnergySaving\switchIcon.png" />
+    <Content Include="Resources\img\apps\RealtimeControl\dragdrop.png" />
+    <Content Include="Resources\img\apps\RealtimeControl\icon.light.png" />
+    <Content Include="Resources\img\apps\RealtimeControl\switchIcon.png" />
+    <Content Include="Resources\img\apps\ReportManager\dragdrop.png" />
+    <Content Include="Resources\img\apps\ReportManager\icon.light.png" />
+    <Content Include="Resources\img\apps\ReportManager\switchIcon.png" />
+    <Content Include="Resources\img\apps\SchedulingManager\dragdrop.png" />
+    <Content Include="Resources\img\apps\SchedulingManager\icon.light.png" />
+    <Content Include="Resources\img\apps\SchedulingManager\switchIcon.png" />
+    <Content Include="Resources\img\apps\Users\dragdrop.png" />
+    <Content Include="Resources\img\apps\Users\icon.light.png" />
+    <Content Include="Resources\img\apps\Users\switchIcon.png" />
+    <Content Include="Resources\img\apps\WorkOrders\dragdrop.png" />
+    <Content Include="Resources\img\apps\WorkOrders\icon.light.png" />
+    <Content Include="Resources\img\apps\WorkOrders\switchIcon.png" />
+    <Content Include="Resources\img\browsers\Chrome\SLV_1807_GeozoneB.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\browsers\Chrome\SLV_1807_GeozoneC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\browsers\IE\AllowOnce.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\browsers\IE\Save.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\browsers\IE\SLV_1807_GeozoneB.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\browsers\IE\SLV_1807_GeozoneC.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\map_device\bg_blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\map_device\bg_gray.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\map_device\bg_green.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\map_device\bg_light_blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\map_device\bg_light_gray.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\map_device\bg_orange.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\map_device\bg_red.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\map_device\bg_yellow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Camera\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\CircutorCVMMeter\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Clock\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Clock\screenshot_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\ElectricalMeter\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\ElectricalMeter\screenshot_1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\ElectricalMeter\screenshot_2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\ElectricalMeter\screenshot_3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Gateway\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Gateway\screenshot_1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Gateway\screenshot_2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Gateway\screenshot_3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\GeozoneFailuresMonitor\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\IoTRouterStatus\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\LuminaireController\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\LuminaireController\screenshot_1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\LuminaireController\screenshot_2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\LuminaireController\screenshot_3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\PollutionSensorWidget\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Securitywidget\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Spoonywidget\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\SunriseSunsetTimes\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\VehiculeChargingStation\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\VehiculeChargingStation\screenshot_1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\VehiculeChargingStation\screenshot_2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\VehiculeChargingStation\screenshot_3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Weather\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\Weather\screenshot_1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\img\widgets\XCamMonitor\icon.light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\js\get_element_helper.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\js\native_js_drag_and_drop_helper.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Resources\data\Language.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\data\SLV-1687.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\json\gmail_api_client_id.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

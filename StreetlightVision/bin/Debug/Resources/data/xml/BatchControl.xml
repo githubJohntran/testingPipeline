@@ -1,0 +1,14 @@
+<BatchControl>
+  <BC_01>
+    <Geozone>Real Time Control Area</Geozone>
+    <Controller name="Smartsims" id="smartsims" />
+    <Streetlight lat="48.85050" lng="2.34210" />
+  </BC_01>
+  <BC_25>
+    <Geozone>Real Time Control Area</Geozone>
+    <Controller name="Smartsims" />
+  </BC_25>
+  <BC_29>
+    <Geozone latMin="48.26203" latMax="48.26860" lngMin="2.68240" lngMax="2.70316" fullAddress ="Quai Victor Hugo, 77140 Nemours, France" partialAddress="Quai Victor" />
+  </BC_29>
+</BatchControl>

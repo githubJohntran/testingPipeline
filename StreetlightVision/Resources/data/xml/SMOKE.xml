@@ -1,0 +1,41 @@
+<SMOKE>	
+	<TS05>
+		<GeoZone>Real Time Control Area</GeoZone>
+		<ReportPrefix>Failures HTML report</ReportPrefix>
+		<ReportType>Failures HTML report</ReportType>
+		<PropertiesTab>
+			<Description>Automated Report Description</Description>
+			<ReportDetails>All devices</ReportDetails>
+			<FilteringMode>No filter</FilteringMode>
+		</PropertiesTab>
+		<SchedulerTab>
+			<Periodicity>Every day</Periodicity>
+		</SchedulerTab>
+		<MailTab>
+			<Subject>Automated FailureHTMLReport_FilteringMode_NoFilter_HtmlEnabled</Subject>
+			<From>qa@streetlightmonitoring.com</From>
+			<Contacts>Default Test User slv-hcmcqa@qualitusvn.com</Contacts>
+		</MailTab>
+	</TS05>
+	<TS06>
+    <Geozone>Automation\Nguyen Van Troi Geozone</Geozone>
+    <DeepestGeozone>Energy Data Area</DeepestGeozone>
+    <ExpectedGeozoneColumnsList>
+      <Header>GeoZone</Header>
+      <Header>Measured (kwh)</Header>
+      <Header>Before (kwh)</Header>
+      <Header>Energy savings (%)</Header>
+      <Header>Pollution savings (tons of CO2)</Header>
+    </ExpectedGeozoneColumnsList>
+    <ExpectedDeviceColumnsList>
+			<Header>Device</Header>
+      <Header>Category</Header>
+			<Header>Measured (kwh)</Header>
+			<Header>Before (kwh)</Header>
+			<Header>Burning hours</Header>
+			<Header>Average (W)</Header>
+			<Header>Energy savings (%)</Header>
+			<Header>Pollution savings (tons of CO2)</Header>
+		</ExpectedDeviceColumnsList>
+</TS06>
+</SMOKE>

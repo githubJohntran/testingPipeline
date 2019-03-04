@@ -1,0 +1,38 @@
+<GeozoneFailuresMonitor>
+  <GFM01>
+    <Geozone>Automation\Geozone Failures Monitor\GFM_01</Geozone>
+    <Streetlight>GFM01-01</Streetlight>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </GFM01>
+  <GFM02>
+    <Geozone>Automation\Geozone Failures Monitor\GFM_02</Geozone>
+    <Streetlight>GFM02-01</Streetlight>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </GFM02>
+  <GFM03>
+    <Geozone1>Automation\Geozone Failures Monitor\GFM_03</Geozone1>
+    <Geozone2>Automation\Geozone Failures Monitor</Geozone2>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </GFM03>
+  <GFM04>
+    <Geozone1>Automation\Geozone Failures Monitor\GFM_04</Geozone1>
+    <Geozone2>Automation\Geozone Failures Monitor</Geozone2>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+    <WarningStreetlight>GFM04-02</WarningStreetlight>
+    <ErrorStreetlight>GFM04-03</ErrorStreetlight>
+  </GFM04>
+  <GFM05>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+    <GeozoneParent>Automation\Geozone Failures Monitor\GFM_05</GeozoneParent>
+    <GeozoneSub>Automation\Geozone Failures Monitor\GFM_05\GFM_05_SUB</GeozoneSub>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+    <WarningStreetlights>
+      <Streetlight>GFM05-02</Streetlight>
+      <Streetlight>GFM05-02-SUB</Streetlight>
+    </WarningStreetlights>
+    <ErrorStreetlights>
+      <Streetlight>GFM05-03</Streetlight>
+      <Streetlight>GFM05-03-SUB</Streetlight>
+    </ErrorStreetlights>    
+  </GFM05>
+</GeozoneFailuresMonitor>

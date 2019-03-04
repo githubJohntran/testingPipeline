@@ -1,0 +1,233 @@
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\NUnit3.TestAdapter.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\NUnit3.TestAdapter.pdb
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\nunit.engine.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\nunit.engine.api.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\BatchControl.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\DataHistory.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\EnvironmentalSensor.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\GeozoneFailuresMonitor.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\Installation.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\DeviceHistory.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\BackOffice.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\JiraCoverage.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\AdvancedSearch.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\FailureTracking.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\Alarm.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\TestingCommonData.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\EquipmentInventory.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\RealtimeControl.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\SchedulingManager.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\SMOKE.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\TC1.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\TC2.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\ReportManager.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\TC3.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\TC4.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\TC5.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\User.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\xml\TestingUsers.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Advanced Search\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Advanced Search\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Advanced Search\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Alarm Manager\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Alarm Manager\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Alarm Manager\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Alarms\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Alarms\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Alarms\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Batch Control\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Batch Control\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Batch Control\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Control Center\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Control Center\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Control Center\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Dashboard\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Dashboard\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Dashboard\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Data history\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Data history\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Data history\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Device History\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Device History\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Device History\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Lifetime\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Lifetime\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Lifetime\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Digital Panel\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Digital Panel\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Digital Panel\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Energy\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Energy\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Energy\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Equipment Inventory\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Equipment Inventory\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Equipment Inventory\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Failure Analysis\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Failure Analysis\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Failure Analysis\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Failure Tracking\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Failure Tracking\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Failure Tracking\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Installation\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Installation\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Installation\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Inventory Verification\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Inventory Verification\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Inventory Verification\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Log Viewer\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Log Viewer\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Log Viewer\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Monthly Energy Saving\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Monthly Energy Saving\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Monthly Energy Saving\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Real-time Control\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Real-time Control\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Real-time Control\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Report Manager\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Report Manager\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Report Manager\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Scheduling Manager\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Scheduling Manager\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Scheduling Manager\moonIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Scheduling Manager\sunIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Scheduling Manager\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Scheduling Manager\timeIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Users\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Users\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Users\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Work Orders\dragdrop.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Work Orders\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\apps\Work Orders\switchIcon.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\browsers\Chrome\SLV_1807_GeozoneB.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\browsers\Chrome\SLV_1807_GeozoneB_FilteringOff.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\browsers\Chrome\SLV_1807_GeozoneC.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\browsers\IE\AllowOnce.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\browsers\IE\Save.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\browsers\IE\SLV_1807_GeozoneB.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\browsers\IE\SLV_1807_GeozoneB_FilteringOff.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\browsers\IE\SLV_1807_GeozoneC.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\audio player.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\building.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\camera ip.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\city object.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\controller device.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\electrical counter.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\environmental sensor.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\inputs.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\nature.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\network component.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\occupancy sensor.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\outputs.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\parking place.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\streetlight.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\white streetlight.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\switch device.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\tank.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\transport signage.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\vehicle charging station.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\vehicle.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\waste container.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\devices\weather station.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\map_device\bg_blue.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\map_device\bg_gray.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\map_device\bg_green.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\map_device\bg_light_blue.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\map_device\bg_light_gray.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\map_device\bg_orange.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\map_device\bg_red.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\map_device\bg_yellow.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\Camera\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\CircutorCVMMeter\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\Clock\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\Clock\screenshot_1.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\ElectricalMeter\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\ElectricalMeter\screenshot_1.jpg
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\ElectricalMeter\screenshot_2.jpg
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\ElectricalMeter\screenshot_3.jpg
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\Gateway\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\Gateway\screenshot_1.jpg
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\Gateway\screenshot_2.jpg
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\Gateway\screenshot_3.jpg
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\GeozoneFailuresMonitor\GFM05\GREEN_33_1.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\GeozoneFailuresMonitor\GFM05\GREEN_33_2.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\GeozoneFailuresMonitor\GFM05\ORANGE_33_1.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\GeozoneFailuresMonitor\GFM05\ORANGE_33_2.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\GeozoneFailuresMonitor\GFM05\ORANGE_50_2.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\GeozoneFailuresMonitor\GFM05\RED_100_2.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\GeozoneFailuresMonitor\GFM05\RED_33_1.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\GeozoneFailuresMonitor\GFM05\RED_33_2.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\GeozoneFailuresMonitor\GFM04\RED_33.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\GeozoneFailuresMonitor\GFM04\RED_50.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\GeozoneFailuresMonitor\GFM04\ORANGE_50.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\GeozoneFailuresMonitor\GFM04\ORANGE_33.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\GeozoneFailuresMonitor\GFM04\RED_100.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\GeozoneFailuresMonitor\GFM04\GREEN_33.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\GeozoneFailuresMonitor\GFM05\RED_50_2.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\GeozoneFailuresMonitor\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\IoTRouterStatus\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\LuminaireController\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\LuminaireController\screenshot_1.jpg
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\LuminaireController\screenshot_2.jpg
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\LuminaireController\screenshot_3.jpg
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\PollutionSensorWidget\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\Securitywidget\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\Spoonywidget\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\SunriseSunsetTimes\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\VehiculeChargingStation\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\VehiculeChargingStation\screenshot_1.jpg
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\VehiculeChargingStation\screenshot_2.jpg
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\VehiculeChargingStation\screenshot_3.jpg
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\Weather\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\Weather\screenshot_1.jpg
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\img\widgets\XCamMonitor\icon.light.png
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\js\jshelper.js
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\js\native_js_drag_and_drop_helper.js
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\ExternalTools\script-to-run-tests.ps1
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\csv\Alarm1426882-New.csv
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\csv\Alarm1426882-Update.csv
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\csv\EI80.csv
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\data\csv\SLV-1687.csv
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Resources\json\gmail_api_client_id.json
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\AutoItX3.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\AutoItX3_x64.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\StreetlightVision.dll.config
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\StreetlightVision.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\StreetlightVision.pdb
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\AutoItX3.Assembly.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\BasicFormatsForCore.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\BCMakeCert.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\CertMaker.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\FiddlerCore4.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\HtmlAgilityPack.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\log4net.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Magick.NET-Q16-AnyCPU.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Newtonsoft.Json.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\nunit.framework.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Renci.SshNet.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\S22.Imap.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\SeleniumExtras.PageObjects.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\SeleniumExtras.WaitHelpers.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Sikuli4Net.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\WebDriver.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\WebDriver.Support.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Zlib.Portable.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\AutoItX3.Assembly.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\FiddlerCore4.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\HtmlAgilityPack.pdb
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\HtmlAgilityPack.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\log4net.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Magick.NET-Q16-AnyCPU.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Newtonsoft.Json.pdb
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Newtonsoft.Json.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\nunit.framework.pdb
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\nunit.framework.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Renci.SshNet.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\S22.Imap.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\WebDriver.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\WebDriver.Support.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\bin\Debug\Zlib.Portable.xml
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\obj\Debug\StreetlightVision.csprojResolveAssemblyReference.cache
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\obj\Debug\StreetlightVision.csproj.CoreCompileInputs.cache
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\obj\Debug\StreetlightVision.dll
+D:\VSTS\AutomationScripts\StreetlightVision\StreetlightVision\obj\Debug\StreetlightVision.pdb

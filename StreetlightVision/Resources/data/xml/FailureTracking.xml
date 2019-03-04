@@ -1,0 +1,35 @@
+<FailureTracking>
+  <FT_03>
+    <DeviceWithFailure geozone="Energy Data Area" name="STL0001" />
+    <DeviceWithNoFailure geozone="Automation\All device types" name="New Streetlight" />
+  </FT_03>
+  <FT_05>
+    <GeozoneA name="Automation\Failure Tracking\SLV-1807-A" />
+    <GeozoneB name="SLV-1807-B">
+      <Streetlight name="B1" id="B1" latitude="10.79749" longitude="106.66291" typeOfEquipment="South Bound XML Light Point Controller[Dimmer #0]" uniqueAddress="FB4585B85A48" controllerId="SLV-1807-ID" />
+      <Streetlight name="B2" id="B2" latitude="10.79755" longitude="106.66329" typeOfEquipment="South Bound XML Light Point Controller[Dimmer #0]" uniqueAddress="EEF54873497D" controllerId="SLV-1807-ID" />
+      <Streetlight name="B3" id="B3" latitude="10.79731" longitude="106.66352" typeOfEquipment="South Bound XML Light Point Controller[Dimmer #0]" uniqueAddress="56AF2B068F09" controllerId="SLV-1807-ID" />
+      <Streetlight name="B4" id="B4" latitude="10.79682" longitude="106.66348" typeOfEquipment="South Bound XML Light Point Controller[Dimmer #0]" uniqueAddress="1F53E920A4FB" controllerId="SLV-1807-ID" />
+      <Streetlight name="B5" id="B5" latitude="10.79717" longitude="106.66324" typeOfEquipment="South Bound XML Light Point Controller[Dimmer #0]" uniqueAddress="635D7C0A8419" controllerId="SLV-1807-ID" />
+      <Streetlight name="B6" id="B6" latitude="10.79687" longitude="106.66282" typeOfEquipment="South Bound XML Light Point Controller[Dimmer #0]" uniqueAddress="0A257982CFF2" controllerId="SLV-1807-ID" />
+      <Streetlight name="B7" id="B7" latitude="10.79718" longitude="106.66277" typeOfEquipment="South Bound XML Light Point Controller[Dimmer #0]" uniqueAddress="A0FE23F07712" controllerId="SLV-1807-ID" />
+    </GeozoneB>
+    <GeozoneC name="SLV-1807-C">
+      <Streetlight name="C1" id="C1" latitude="10.79685" longitude="106.66319" typeOfEquipment="South Bound XML Light Point Controller[Dimmer #0]" uniqueAddress="A0BE898A296A" controllerId="SLV-1807-ID" />
+      <Streetlight name="C2" id="C2" latitude="10.79705" longitude="106.66371" typeOfEquipment="South Bound XML Light Point Controller[Dimmer #0]" uniqueAddress="F6767C1D343E" controllerId="SLV-1807-ID" />
+      <Streetlight name="C3" id="C3" latitude="10.79758" longitude="106.66372" typeOfEquipment="South Bound XML Light Point Controller[Dimmer #0]" uniqueAddress="59DA9F8955FB" controllerId="SLV-1807-ID" />
+      <Streetlight name="C4" id="C4" latitude="10.79678" longitude="106.66412" typeOfEquipment="South Bound XML Light Point Controller[Dimmer #0]" uniqueAddress="CBE3712E6923" controllerId="SLV-1807-ID" />
+      <Streetlight name="C5" id="C5" latitude="10.79742" longitude="106.66391" typeOfEquipment="South Bound XML Light Point Controller[Dimmer #0]" uniqueAddress="04D3DF38648F" controllerId="SLV-1807-ID" />
+      <Streetlight name="C6" id="C6" latitude="10.79722" longitude="106.66418" typeOfEquipment="South Bound XML Light Point Controller[Dimmer #0]" uniqueAddress="E42DDBD67EE5" controllerId="SLV-1807-ID" />
+      <Streetlight name="C7" id="C7" latitude="10.79653" longitude="106.66348" typeOfEquipment="South Bound XML Light Point Controller[Dimmer #0]" uniqueAddress="72D73411120D" controllerId="SLV-1807-ID" />
+      <Streetlight name="C8" id="C8" latitude="10.79695" longitude="106.66396" typeOfEquipment="South Bound XML Light Point Controller[Dimmer #0]" uniqueAddress="9BEBF03A28F4" controllerId="SLV-1807-ID" />
+      <Streetlight name="C9" id="C9" latitude="10.79664" longitude="106.66308" typeOfEquipment="South Bound XML Light Point Controller[Dimmer #0]" uniqueAddress="5217A8272492" controllerId="SLV-1807-ID" />
+    </GeozoneC>
+  </FT_05>  
+  <FT_09>
+    <OlsonTimeZoneId>America/Los_Angeles</OlsonTimeZoneId>
+  </FT_09>
+  <FT_13>
+    <Geozone latMin="48.26203" latMax="48.26860" lngMin="2.68240" lngMax="2.70316" fullAddress ="Quai Victor Hugo, 77140 Nemours, France" partialAddress="Quai Victor" />
+  </FT_13>
+</FailureTracking>

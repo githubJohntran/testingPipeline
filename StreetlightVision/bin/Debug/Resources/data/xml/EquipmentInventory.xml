@@ -1,0 +1,489 @@
+<EquipmentInventory>
+  <EI_03>
+    <Geozone>Automation\Free Geozones</Geozone>
+  </EI_03>
+  <EI_06>
+    <Geozone>Automation\All device types</Geozone>
+    <ExpectedRemoteControlProperties>
+      <Property>Category</Property>
+      <Property>Circuit index</Property>
+      <Property>Controller ID</Property>
+      <Property>Dimming group</Property>
+      <Property>Energy supplier</Property>
+      <Property>External port</Property>
+      <Property>GeoZone Path</Property>
+      <Property>Identifier</Property>
+      <Property>Internal port</Property>
+      <Property>Lamp type name</Property>
+      <Property>Latitude</Property>
+      <Property>Longitude</Property>
+      <Property>Name</Property>
+      <Property>Reference</Property>
+      <Property>Type of equipment</Property>
+      <Property>Unique address</Property>
+    </ExpectedRemoteControlProperties>
+    <ExpectedOthersProperties>
+      <Property>2nd MAC address</Property>
+      <Property>3rd MAC address</Property>
+      <Property>Account number</Property>
+      <Property>Activate</Property>
+      <Property>Address 1</Property>
+      <Property>Address 2</Property>
+      <Property>Age</Property>
+      <Property>Analog modbus 1</Property>
+      <Property>Analog modbus 2</Property>
+      <Property>Analog modbus 3</Property>
+      <Property>Auto comm active</Property>
+      <Property>Ballast brand</Property>
+      <Property>Ballast type</Property>
+      <Property>Bandwidth</Property>
+      <Property>Bracket brand</Property>
+      <Property>Bracket color</Property>
+      <Property>Bracket model</Property>
+      <Property>Bracket type</Property>
+      <Property>Building owner</Property>
+      <Property>Building surface</Property>
+      <Property>Building usage</Property>
+      <Property>CPD Mac address</Property>
+      <Property>Cabinet</Property>
+      <Property>Cabinet wattage</Property>
+      <Property>Camera host name</Property>
+      <Property>Catalog number</Property>
+      <Property>Channel mask</Property>
+      <Property>City</Property>
+      <Property>Classification</Property>
+      <Property>Color code</Property>
+      <Property>Comm TX counter</Property>
+      <Property>Comm. media</Property>
+      <Property>Comment</Property>
+      <Property>Commission mode</Property>
+      <Property>Commissioning mode</Property>
+      <Property>Communication status</Property>
+      <Property>Config path</Property>
+      <Property>Config status msg</Property>
+      <Property>Configuration status</Property>
+      <Property>Consider Replace-OLC as update</Property>
+      <Property>Consider StreetLights as LightPoints</Property>
+      <Property>Container hook type</Property>
+      <Property>Container last collect</Property>
+      <Property>Container model</Property>
+      <Property>Container next collect</Property>
+      <Property>Container owner</Property>
+      <Property>Container type</Property>
+      <Property>Container volume</Property>
+      <Property>Container waste density</Property>
+      <Property>Container waste price (m3)</Property>
+      <Property>Control technology</Property>
+      <Property>Controller Group</Property>
+      <Property>Controller cache mode</Property>
+      <Property>Controller install date</Property>
+      <Property>Controller localhost</Property>
+      <Property>Cost per MB</Property>
+      <Property>Cost per extra MB</Property>
+      <Property>Customer name</Property>
+      <Property>Customer number</Property>
+      <Property>DNS server host</Property>
+      <Property>DNS server port</Property>
+      <Property>Default calendar name</Property>
+      <Property>Default light level</Property>
+      <Property>Device HW Type</Property>
+      <Property>Device HW version</Property>
+      <Property>Device SW version</Property>
+      <Property>Device manufacturer</Property>
+      <Property>Device name</Property>
+      <Property>Digital modbus 1</Property>
+      <Property>Digital modbus 1 - Failure</Property>
+      <Property>Digital modbus 10</Property>
+      <Property>Digital modbus 10 - Failure</Property>
+      <Property>Digital modbus 11</Property>
+      <Property>Digital modbus 11 - Failure</Property>
+      <Property>Digital modbus 12</Property>
+      <Property>Digital modbus 12 - Failure</Property>
+      <Property>Digital modbus 2</Property>
+      <Property>Digital modbus 2 - Failure</Property>
+      <Property>Digital modbus 3</Property>
+      <Property>Digital modbus 3 - Failure</Property>
+      <Property>Digital modbus 4</Property>
+      <Property>Digital modbus 4 - Failure</Property>
+      <Property>Digital modbus 5</Property>
+      <Property>Digital modbus 5 - Failure</Property>
+      <Property>Digital modbus 6</Property>
+      <Property>Digital modbus 6 - Failure</Property>
+      <Property>Digital modbus 7</Property>
+      <Property>Digital modbus 7 - Failure</Property>
+      <Property>Digital modbus 8</Property>
+      <Property>Digital modbus 8 - Failure</Property>
+      <Property>Digital modbus 9</Property>
+      <Property>Digital modbus 9 - Failure</Property>
+      <Property>Dimming interface</Property>
+      <Property>Domain</Property>
+      <Property>Dry Contact Input Label</Property>
+      <Property>Edge</Property>
+      <Property>Edge Mode</Property>
+      <Property>Elexon charge code</Property>
+      <Property>Energy efficiency</Property>
+      <Property>Energy report interval</Property>
+      <Property>Energy supplier</Property>
+      <Property>Extended PAN ID</Property>
+      <Property>Extension card address</Property>
+      <Property>Extension card type</Property>
+      <Property>External Battery</Property>
+      <Property>External Coupling</Property>
+      <Property>Family</Property>
+      <Property>Feeder number</Property>
+      <Property>Firmware update status</Property>
+      <Property>Fixed saved power</Property>
+      <Property>Floor area</Property>
+      <Property>Gas consumption</Property>
+      <Property>Gateway</Property>
+      <Property>Gateway Host Name</Property>
+      <Property>Geolocation type</Property>
+      <Property>Global dim command</Property>
+      <Property>Group dim command</Property>
+      <Property>Gzip payload</Property>
+      <Property>Hardware revision</Property>
+      <Property>High light level</Property>
+      <Property>High voltage threshold</Property>
+      <Property>High-to-low delay</Property>
+      <Property>Host name</Property>
+      <Property>IMEI number</Property>
+      <Property>IP address (internal)</Property>
+      <Property>IP network mask</Property>
+      <Property>Incl. latency in interval</Property>
+      <Property>Input 1 - Label</Property>
+      <Property>Input 10 - Label</Property>
+      <Property>Input 11 - Label</Property>
+      <Property>Input 12 - Label</Property>
+      <Property>Input 2 - Label</Property>
+      <Property>Input 3 - Label</Property>
+      <Property>Input 4 - Label</Property>
+      <Property>Input 5 - Label</Property>
+      <Property>Input 6 - Label</Property>
+      <Property>Input 7 - Label</Property>
+      <Property>Input 8 - Label</Property>
+      <Property>Input 9 - Label</Property>
+      <Property>Input Failure 1 - Label</Property>
+      <Property>Input Failure 10 - Label</Property>
+      <Property>Input Failure 11 - Label</Property>
+      <Property>Input Failure 12 - Label</Property>
+      <Property>Input Failure 13 - Label</Property>
+      <Property>Input Failure 14 - Label</Property>
+      <Property>Input Failure 15 - Label</Property>
+      <Property>Input Failure 16 - Label</Property>
+      <Property>Input Failure 17 - Label</Property>
+      <Property>Input Failure 18 - Label</Property>
+      <Property>Input Failure 2 - Label</Property>
+      <Property>Input Failure 3 - Label</Property>
+      <Property>Input Failure 4 - Label</Property>
+      <Property>Input Failure 5 - Label</Property>
+      <Property>Input Failure 6 - Label</Property>
+      <Property>Input Failure 7 - Label</Property>
+      <Property>Input Failure 8 - Label</Property>
+      <Property>Input Failure 9 - Label</Property>
+      <Property>Install status</Property>
+      <Property>Is CPD</Property>
+      <Property>Lamp - CLO initial value</Property>
+      <Property>Lamp - Max lamp wattage</Property>
+      <Property>Lamp Type</Property>
+      <Property>Lamp install date</Property>
+      <Property>Lamp wattage (W)</Property>
+      <Property>Last IMU log sequence</Property>
+      <Property>Last IMU request time</Property>
+      <Property>Last event log sequence</Property>
+      <Property>Last event request time</Property>
+      <Property>Last meter log sequence</Property>
+      <Property>Last meter request time</Property>
+      <Property>Library version</Property>
+      <Property>Light control mode</Property>
+      <Property>Light distribution</Property>
+      <Property>Link key</Property>
+      <Property>Local IP address</Property>
+      <Property>Location Type</Property>
+      <Property>Low voltage threshold</Property>
+      <Property>Low-to-high delay</Property>
+      <Property>Luminaire brand</Property>
+      <Property>Luminaire install date</Property>
+      <Property>Luminaire model</Property>
+      <Property>Luminaire type</Property>
+      <Property>Lux level threshold</Property>
+      <Property>Mains control mode</Property>
+      <Property>Maintain delay</Property>
+      <Property>Manufacturing date</Property>
+      <Property>Map number</Property>
+      <Property>Master daylight sensor mode</Property>
+      <Property>Max connections</Property>
+      <Property>Max devices</Property>
+      <Property>Max hops</Property>
+      <Property>Max units</Property>
+      <Property>Meter program ID</Property>
+      <Property>NIC HW model</Property>
+      <Property>NIC HW version</Property>
+      <Property>NIC SW version</Property>
+      <Property>NIC current mode</Property>
+      <Property>NIC fallback mode</Property>
+      <Property>NIC serial number</Property>
+      <Property>NTP host</Property>
+      <Property>Network Id</Property>
+      <Property>Network key</Property>
+      <Property>Network key</Property>
+      <Property>Network type</Property>
+      <Property>Node master key</Property>
+      <Property>Number of floor</Property>
+      <Property>Number of persons</Property>
+      <Property>Number of segments</Property>
+      <Property>OLC config mode</Property>
+      <Property>OLC timeout</Property>
+      <Property>OLC tries</Property>
+      <Property>Off Lux Level</Property>
+      <Property>On Lux Level</Property>
+      <Property>Oper TX counter</Property>
+      <Property>Operational Mode</Property>
+      <Property>Orientation</Property>
+      <Property>Output 1 - Calendar name</Property>
+      <Property>Output 1 - Label</Property>
+      <Property>Output 2 - Calendar name</Property>
+      <Property>Output 2 - Label</Property>
+      <Property>Output 3 - Calendar name</Property>
+      <Property>Output 3 - Label</Property>
+      <Property>Output 4 - Calendar name</Property>
+      <Property>Output 4 - Label</Property>
+      <Property>Output 5 - Calendar name</Property>
+      <Property>Output 5 - Label</Property>
+      <Property>Output 6 - Calendar name</Property>
+      <Property>Output 6 - Label</Property>
+      <Property>PAN ID</Property>
+      <Property>PF threshold</Property>
+      <Property>Password</Property>
+      <Property>Password</Property>
+      <Property>Phone number</Property>
+      <Property>Picture file path</Property>
+      <Property>Pole color code</Property>
+      <Property>Pole height</Property>
+      <Property>Pole install date</Property>
+      <Property>Pole material</Property>
+      <Property>Pole or head install</Property>
+      <Property>Pole shape</Property>
+      <Property>Pole status</Property>
+      <Property>Pole type</Property>
+      <Property>Premise</Property>
+      <Property>Primary DNS</Property>
+      <Property>Product ID</Property>
+      <Property>Product reference</Property>
+      <Property>Provisionning host</Property>
+      <Property>Quota inbound limit</Property>
+      <Property>Quota outbound limit</Property>
+      <Property>RF channel</Property>
+      <Property>RF lamp port</Property>
+      <Property>RF segment identifier</Property>
+      <Property>RF short address</Property>
+      <Property>Realtime command</Property>
+      <Property>Realtime path</Property>
+      <Property>Reference unit</Property>
+      <Property>Report frequency</Property>
+      <Property>Report time</Property>
+      <Property>Request interval (ms)</Property>
+      <Property>Retries</Property>
+      <Property>SCP schema version</Property>
+      <Property>SCP servlet path</Property>
+      <Property>SIM card number</Property>
+      <Property>SLV datapoint server fpm usage</Property>
+      <Property>Section</Property>
+      <Property>Segment</Property>
+      <Property>Sensor active period</Property>
+      <Property>Sensor group</Property>
+      <Property>Sensor to container bottom (cm)</Property>
+      <Property>Sensor to container top (cm)</Property>
+      <Property>Sensor to tank bottom (cm)</Property>
+      <Property>Sensor to tank top (cm)</Property>
+      <Property>Sensor type</Property>
+      <Property>Serial number</Property>
+      <Property>Server WebApp URL</Property>
+      <Property>Short address</Property>
+      <Property>Size</Property>
+      <Property>Skip delete schedule</Property>
+      <Property>Smart poll fpm usage</Property>
+      <Property>Software version</Property>
+      <Property>Specy</Property>
+      <Property>Start delay</Property>
+      <Property>Static IP</Property>
+      <Property>Status</Property>
+      <Property>Subnet mask</Property>
+      <Property>Substation</Property>
+      <Property>Supply voltage</Property>
+      <Property>Switch</Property>
+      <Property>Tank flow density</Property>
+      <Property>Tank flow price (m3)</Property>
+      <Property>Tank hook type</Property>
+      <Property>Tank last collect</Property>
+      <Property>Tank model</Property>
+      <Property>Tank next collect</Property>
+      <Property>Tank owner</Property>
+      <Property>Tank type</Property>
+      <Property>Tank volume</Property>
+      <Property>Time zone</Property>
+      <Property>TimeZone [POSIX.1]</Property>
+      <Property>Timeout</Property>
+      <Property>Timeout</Property>
+      <Property>Timestamp counter</Property>
+      <Property>Total inbound limit</Property>
+      <Property>Total outbound limit</Property>
+      <Property>Transformer</Property>
+      <Property>Transmission delay</Property>
+      <Property>Transmit power</Property>
+      <Property>Trust center EUI64</Property>
+      <Property>Type of VCS</Property>
+      <Property>Type of building</Property>
+      <Property>Type of cabinet</Property>
+      <Property>Type of camera</Property>
+      <Property>Type of container waste</Property>
+      <Property>Type of equipment</Property>
+      <Property>Type of ground fixing</Property>
+      <Property>Type of meter</Property>
+      <Property>Type of object</Property>
+      <Property>Type of sensor</Property>
+      <Property>Type of signage</Property>
+      <Property>Type of tank flow</Property>
+      <Property>Type of tree</Property>
+      <Property>UPnP port</Property>
+      <Property>Use UPnP</Property>
+      <Property>User name</Property>
+      <Property>Username</Property>
+      <Property>Utility ID</Property>
+      <Property>Utility Location ID</Property>
+      <Property>VCS host name</Property>
+      <Property>Video Host Password</Property>
+      <Property>Video Host URL</Property>
+      <Property>Video Host Username</Property>
+      <Property>Video encoding</Property>
+      <Property>Voltage</Property>
+      <Property>Water consumption</Property>
+      <Property>Zip code</Property>
+      <Property>kWh consumption</Property>
+      <Property>Cabinet Controller</Property>
+      <Property>Dim level 1</Property>
+      <Property>Dim level 2</Property>
+      <Property>Dim level 3</Property>
+      <Property>Driver HW version</Property>
+      <Property>Driver S/N</Property>
+      <Property>Driver SW version</Property>
+      <Property>Driver name</Property>
+      <Property>Driver product code</Property>
+      <Property>Lamp failure threshold</Property>
+      <Property>Lamp warmup time</Property>
+      <Property>Luminaire CCT</Property>
+      <Property>Luminaire S/N</Property>
+      <Property>Luminaire color</Property>
+      <Property>Luminaire light source</Property>
+      <Property>Luminaire lumen output</Property>
+      <Property>Luminaire manuf. date</Property>
+      <Property>Luminaire max AC volt.</Property>
+      <Property>Luminaire min AC volt.</Property>
+      <Property>Luminaire part desc.</Property>
+      <Property>Luminaire part number</Property>
+      <Property>Luminaire style</Property>
+      <Property>Poll interval</Property>
+      <Property>Samples/interval</Property>
+      <Property>Threshold 1</Property>
+      <Property>Threshold 2</Property>
+      <Property>xMinutes</Property>
+    </ExpectedOthersProperties>
+  </EI_06>
+  <EI_07>
+    <Geozone>Automation\Equipment Inventory</Geozone>
+    <Controller name="Smartsims commission" id="smartsims-comm" />
+  </EI_07>
+  <EI_10_02>
+    <ControlTechnologies>
+      <Technology>iLON Segment Controller Version 4</Technology>
+      <Technology>Silver Spring Networks</Technology>
+      <Technology>TALQ Bridge</Technology>
+      <Technology>Telematics Wireless</Technology> 
+    </ControlTechnologies>
+  </EI_10_02>
+  <EI_13>
+    <Controller>Real Time Control Area\Smartsims commission</Controller>
+  </EI_13>
+  <EI_16_01>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </EI_16_01>
+  <EI_17_02>
+    <EquipmentTypes>
+      <Type>Telematics LCU</Type>
+      <Type>TALQ Streetlight</Type>
+      <Type>LRL LumenIQ Node</Type>
+      <Type>Echelon CPD3000 LonMark 3514</Type>
+      <Type>SSN Selc Dim Photocell</Type>
+    </EquipmentTypes>
+  </EI_17_02>
+  <EI_20>
+    <Controller name="Smartsims commission" id="smartsims-comm" />
+  </EI_20>
+  <EI_22>
+    <Controller name="Smartsims commission" id="smartsims-comm" />
+  </EI_22>
+  <EI_26>
+    <EquipmentTypes>
+      <Type>Telematics LCU</Type>
+      <Type>TALQ Streetlight</Type>
+      <Type>LRL LumenIQ Node</Type>
+      <Type>Echelon CPD3000 LonMark 3514</Type>
+      <Type>SSN Selc Dim Photocell</Type>
+    </EquipmentTypes>
+  </EI_26>
+  <EI_27_01>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </EI_27_01>
+  <EI_28_02>
+    <EquipmentTypes>
+      <Type>Sidhe Boann LORA Device</Type>
+      <Type>SLA Photocell</Type>
+      <Type>Lumnex Axess PL v2</Type>
+      <Type>Citylone SL31-EDA-ECS</Type>
+      <Type>Citybox V2[controlleroutput1]</Type>
+      <Type>Citybox V2[controlleroutput2]</Type>
+    </EquipmentTypes>
+  </EI_28_02>
+  <EI_31>
+    <Controller name="Smartsims commission" id="smartsims-comm" />
+  </EI_31>
+  <EI_33>
+    <Controller name="Smartsims commission" id="smartsims-comm" />
+  </EI_33>
+  <EI_37>
+    <EquipmentTypes>
+      <Type>Sidhe Boann LORA Device[switch]</Type>
+      <Type>SLA Photocell[Ballast]</Type>
+      <Type>Citylone SL31-EDA-ECS[Relay]</Type>
+      <Type>Lumnex Axess PL v2[Relay]</Type>
+      <Type>PHILIPS LLC7030/DALI With One Output[Advert switch]</Type>
+    </EquipmentTypes>
+  </EI_37>
+  <EI_38_01>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </EI_38_01>
+  <EI_63>
+    <Geozone latMin="39.12585" latMax="39.13928" lngMin="102.13108" lngMax="102.16748"/>
+  </EI_63>
+  <EI_80>    
+    <LocationNoDevices>Cantho International Airport</LocationNoDevices>
+    <LocationHasDevicesPartial>Hoang Van Thu Park</LocationHasDevicesPartial>
+    <LocationHasDevicesFull>Hoang Van Thu Park, Phan Đình Giót St., Hồ Chí Minh, 736400, Vietnam</LocationHasDevicesFull>
+    <Devices>
+      <Device name ="EI80STL01" lng="106.663895" lat="10.80099"/>
+      <Device name ="EI80STL02" lng="106.663905" lat="10.80109"/>
+      <Device name ="EI80STL03" lng="106.663915" lat="10.80119"/>
+      <Device name ="EI80STL04" lng="106.663925" lat="10.80129"/>
+      <Device name ="EI80STL05" lng="106.663935" lat="10.80139"/>
+      <Device name ="EI80STL06" lng="106.663945" lat="10.80149"/>
+      <Device name ="EI80STL07" lng="106.663945" lat="10.80159"/>
+      <Device name ="EI80STL08" lng="106.663965" lat="10.80169"/>
+      <Device name ="EI80STL09" lng="106.663975" lat="10.80179"/>
+      <Device name ="EI80STL10" lng="106.663985" lat="10.80189"/>
+      <Device name ="EI80STL11" lng="106.663995" lat="10.80199"/>
+    </Devices>
+  </EI_80>
+  <EI_1377758_1377757>
+    <Location1>Lincoln Park, Michigan, United States</Location1>
+    <Location2>Enfield, Greater London, England, United Kingdom</Location2>
+  </EI_1377758_1377757>
+</EquipmentInventory>

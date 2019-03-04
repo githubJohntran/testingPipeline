@@ -1,0 +1,213 @@
+﻿<JiraCoverage>
+  <SLV_1619>
+    <Controller1 name="iLON" id="ilon" />
+    <Controller2 name="Vietnam Controller" id="vietnamcontroller" />
+  </SLV_1619>
+  <SLV_1680>
+    <GeoZone>Real Time Control Area</GeoZone>
+  </SLV_1680>
+  <SLV_2111>
+    <GeoZone>Real Time Control Area</GeoZone>
+    <ReportPrefix>Failures HTML report</ReportPrefix>
+    <ReportType>Failures HTML report</ReportType>
+    <PropertiesTab>
+      <Description>Automated Report Description</Description>
+      <ReportDetails>Auto</ReportDetails>
+      <FilteringMode>No filter</FilteringMode>
+    </PropertiesTab>
+    <SchedulerTab>Every day</SchedulerTab>
+    <MailTab>
+      <Subject>Automated FailureHTMLReport_NoFilter_HtmlDisabled</Subject>
+      <From>qa@streetlightmonitoring.com</From>
+      <Contacts>Default Test User slv-hcmcqa@qualitusvn.com</Contacts>
+    </MailTab>
+  </SLV_2111>
+  <SLV_2227>
+    <SearchName>Telematics</SearchName>
+  </SLV_2227>
+  <SLV_1260>
+    <Device1 controller-id="vietnamcontroller" dimming-group="SlvTestGroup1"/>
+    <Device2 controller-id="vietnamcontroller" dimming-group="SlvTestGroup2"/>
+  </SLV_1260>
+  <SLV_408>
+    <TimeZone1 id="Europe/Paris" name="Central European Time [+01:00] [Europe/Paris]"/>
+    <TimeZone2 id="Asia/Beirut" name="Eastern European Time [+02:00] [Asia/Beirut]"/>
+  </SLV_408>
+  <SLV_1814>
+    <SearchName>Auto Search</SearchName>
+    <GeoZone>GeoZones\Real Time Control Area</GeoZone>
+    <ExportFilePattern>Advanced_Search*.csv</ExportFilePattern>
+  </SLV_1814>
+  <SLV_1954>
+    <SearchName>Auto Search</SearchName>
+    <GeoZone>GeoZones\Real Time Control Area</GeoZone>
+  </SLV_1954>
+  <SLV_1740>
+    <Geozone>Alarm Area</Geozone>
+  </SLV_1740>
+  <SLV_1959>
+    <Device controller-id="vietnamcontroller"/>
+  </SLV_1959>
+  <SLV_1986>
+    <Geozone>Automation\Failure Tracking\SLV-1807-A\SLV-1807-B</Geozone>
+    <GeozoneImagePathFilteringOn>Resources\img\browsers\{Browser}\SLV_1807_GeozoneB.png</GeozoneImagePathFilteringOn>
+    <GeozoneImagePathFilteringOff>Resources\img\browsers\{Browser}\SLV_1807_GeozoneB_FilteringOff.png</GeozoneImagePathFilteringOff>
+  </SLV_1986>
+  <SLV_1071>
+    <Geozone>Energy Data Area</Geozone>
+  </SLV_1071>
+  <SLV_1681>
+    <ExpectedExportHeader>id;name;geoZoneId;triggerConditionImplClassName;alarmStateChangeActionImplClassNames;triggerCondition.hoursDelay;newAlarmWhenAcknowledged;triggerCondition.fullFilledMessageTemplate;action[0].from;alarmName;alarmPriority;action[0].subject;autoAcknowledge;refreshRate;action[0].to;action[0].message;disabled;triggerCondition.controllerStrIds</ExpectedExportHeader>
+  </SLV_1681>
+  <SLV_1659>
+    <Alarm controller="Alarm Area Controller [alrmctrl]" refreshRate="30 secondes" toEmail="Default Test User slv-hcmcqa@qualitusvn.com" />
+  </SLV_1659>
+  <SLV_1925>
+    <MapBounds lngMin="114.16310" lngMax="114.17798" latMin="22.31977" latMax="22.32662" devicesCount ="6"/>
+    <Device>STL0002</Device>
+  </SLV_1925>
+  <SLV_403>
+    <RefreshRates>
+      <Rate>Default value in the server</Rate>
+      <Rate>10 secondes</Rate>
+      <Rate>30 secondes</Rate>
+      <Rate>1 minute</Rate>
+      <Rate>5 minutes</Rate>
+      <Rate>10 minutes</Rate>
+      <Rate>30 minutes</Rate>
+      <Rate>1 hour</Rate>
+      <Rate>6 hours</Rate>
+      <Rate>12 hours</Rate>
+    </RefreshRates>
+  </SLV_403>
+  <SLV_1689>
+    <Geozones>
+      <Geozone>Real Time Control Area</Geozone>
+      <Geozone>Automation</Geozone>
+      <Geozone>Alarm Area</Geozone>
+      <Geozone>Energy Data Area</Geozone>
+    </Geozones>
+  </SLV_1689>
+  <SLV_2375>
+    <Geozone>Real Time Control Area</Geozone>
+    <SearchName>Telematics</SearchName>
+  </SLV_2375>
+  <SLV_1793>
+    <GeozoneA>Automation</GeozoneA>
+    <GeozoneB>Real Time Control Area</GeozoneB>
+  </SLV_1793>
+  <SLV_2430>
+    <Geozone>Energy Data Area</Geozone>
+  </SLV_2430>
+  <SLV_965>
+    <Geozone>Real Time Control Area</Geozone>
+  </SLV_965>
+  <SLV_2141>
+    <ParentGeozone>Automation\Free Geozones</ParentGeozone>
+  </SLV_2141>
+  <SLV_1664>
+    <ParentGeozone>Automation\Free Geozones</ParentGeozone>
+    <OtherGeozone>Real Time Control Area</OtherGeozone>
+  </SLV_1664>
+  <SLV_1524>
+    <Geozones>
+      <Geozone>Real Time Control Area</Geozone>
+      <Geozone>Automation</Geozone>
+      <Geozone>Alarm Area</Geozone>
+      <Geozone>Energy Data Area</Geozone>
+    </Geozones>
+  </SLV_1524>
+  <SLV_854>
+    <Controller id="vietnamcontroller" />
+  </SLV_854>
+  <SLV_733>
+    <Geozone>Automation</Geozone>
+  </SLV_733>
+  <SLV_2344>
+    <Device name="STL0001" id="stl0001" controller-id="flowermarket" geozone="Energy Data Area" failure-name="Lamp failure" failure-id="LampFailure" />
+  </SLV_2344>
+  <SLV_1000>
+    <Alarms>
+      <Alarm device="XNone Working 1 [@smartsims2]" refreshRate="10 secondes" />
+      <Alarm device="XNone Working 2 [@smartsims2]" refreshRate="10 secondes" />
+    </Alarms>
+  </SLV_1000>
+  <SC_592>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </SC_592>
+  <SC_595>
+    <Geozone>GeoZones\Real Time Control Area</Geozone>
+  </SC_595>
+  <SC_382>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </SC_382>
+  <SC_463>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </SC_463>
+  <SC_322>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </SC_322>
+  <SC_10_01>
+    <Controller name="Smartsims commission" id="smartsims-comm" />
+  </SC_10_01>
+  <SC_10_02>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </SC_10_02>
+  <SC_89>
+    <NotCommisionController id="vietnamcontroller" name="Vietnam Controller"/>
+    <CommisionController id="smartsims-comm" name="Smartsims commission"/>
+    <Calendar>SlvDemoGroup2</Calendar>
+  </SC_89>
+  <SC_90>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </SC_90>
+  <SC_509>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </SC_509>  
+  <SC_116>
+   <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </SC_116>  
+  <SC_20_01>
+    <Controller name="Smartsims commission" id="smartsims-comm" />
+  </SC_20_01>
+  <SC_20_02>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+  </SC_20_02>
+  <SC_548>
+    <Controller name="Smartsims commission" id="smartsims-comm" />
+  </SC_548>
+  <SC_825>
+    <ExpectedTemplates>
+      <Template>Commutation astronomique</Template>
+      <Template>Commutation astronomique avec évènements à heures fixes</Template>
+      <Template>Toujours allumé</Template>
+      <Template>Toujours éteint</Template>
+      <Template>Evènements à heures fixes de jour</Template>
+      <Template>Mode avancé</Template>
+    </ExpectedTemplates>
+  </SC_825>
+  <SC_218>
+    <ReportTypes>
+      <Type>Day Burner Report</Type>
+      <Type>Failures HTML report</Type>
+      <Type>Failures report</Type>
+      <Type>FlashNet LampFailure Report</Type>
+      <Type>Generic device last values</Type>
+      <Type>Generic device values</Type>
+      <Type>Latency Report</Type>
+      <Type>Lifetime report</Type>
+      <Type>Location change report</Type>
+      <Type>Low Power Factor Report</Type>
+      <Type>No data ever received</Type>
+      <Type>OnOff segment report</Type>
+      <Type>Over 140V Voltage Report</Type>
+      <Type>Over Voltage Report</Type>
+      <Type>Over Wattage Report</Type>
+      <Type>Symology report</Type>
+      <Type>UMSUG report</Type>
+      <Type>Unbalanced 3-Phase Cabinets Report</Type>
+      <Type>Under 110V Voltage Report</Type>
+      <Type>Under Voltage Report</Type>
+    </ReportTypes>
+  </SC_218>
+</JiraCoverage>

@@ -1,0 +1,59 @@
+<RealtimeControl>
+  <RTC_01>
+    <Controller>Real Time Control Area\Smartsims</Controller>
+    <Commands>
+      <Command>ON</Command>
+      <Command>80%</Command>
+      <Command>70%</Command>
+      <Command>60%</Command>
+      <Command>50%</Command>
+      <Command>40%</Command>
+      <Command>OFF</Command>
+    </Commands>
+  </RTC_01>
+  <RTC_02>
+    <Controller>Real Time Control Area\Smartsims</Controller>
+  </RTC_02>
+  <RTC_03>
+    <Controller>Real Time Control Area\Smartsims</Controller>
+  </RTC_03>
+  <RTC_04>
+    <Controller>Real Time Control Area\Smartsims</Controller>
+  </RTC_04>
+  <RTC_05>
+    <Controller>Real Time Control Area\Smartsims</Controller>
+  </RTC_05>
+  <RTC_06>
+    <Controller>Real Time Control Area\Smartsims</Controller>
+  </RTC_06>
+  <RTC_07>
+    <Controller>Real Time Control Area\Smartsims</Controller>
+  </RTC_07>
+  <RTC_08>
+    <Commands>
+      <Command>ON</Command>
+      <Command>90%</Command>
+      <Command>80%</Command>
+      <Command>70%</Command>
+      <Command>60%</Command>
+      <Command>50%</Command>
+      <Command>40%</Command>
+      <Command>OFF</Command>
+    </Commands>
+  </RTC_08>
+  <RTC_22>
+    <Controller>Real Time Control Area\Smartsims</Controller>
+  </RTC_22>
+  <RTC_25>
+    <RefreshMinute>1</RefreshMinute>
+  </RTC_25>
+  <SC_1968>
+    <Controller geozone="Real Time Control Area" name="Smartsims commission" id="smartsims-comm" />
+  </SC_1968>
+  <RTC_29>
+    <Geozone latMin="48.26203" latMax="48.26860" lngMin="2.68240" lngMax="2.70316" fullAddress ="Quai Victor Hugo, 77140 Nemours, France" partialAddress="Quai Victor" />
+  </RTC_29>
+  <RTC_1306572>
+    <Controller name="Smartsims" id="smartsims" />
+  </RTC_1306572>
+</RealtimeControl>

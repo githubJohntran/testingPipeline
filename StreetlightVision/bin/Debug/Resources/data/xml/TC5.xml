@@ -1,0 +1,36 @@
+<TC5>
+  <TS5_1_1>
+    <GeozoneWithDevicesOnly>Energy Data Area</GeozoneWithDevicesOnly>
+    <ExpectedGridColumnHeaders>
+      <Header>Device</Header>
+      <Header>Category</Header>
+      <Header>Measured (kwh)</Header>
+      <Header>Before (kwh)</Header>
+      <Header>Burning hours</Header>
+      <Header>Average (W)</Header>
+      <Header>Energy savings (%)</Header>
+      <Header>Pollution savings (tons of CO2)</Header>
+    </ExpectedGridColumnHeaders>
+  </TS5_1_1>
+  <TS5_5_1>
+    <GeoZoneWithSubGeozones>GeoZones</GeoZoneWithSubGeozones>
+    <ExpectedGridColumnHeaders>
+      <Header>GeoZone</Header>
+      <Header>Measured (kwh)</Header>
+      <Header>Before (kwh)</Header>
+      <Header>Energy savings (%)</Header>
+      <Header>Pollution savings (tons of CO2)</Header>
+    </ExpectedGridColumnHeaders>
+  </TS5_5_1>
+  <TS5_6_1>
+    <Geozone1>Energy Data Area</Geozone1>
+    <Geozone2>GeoZones</Geozone2>
+  </TS5_6_1>
+  <TS5_7_1>
+    <Geozone1>GeoZones</Geozone1>
+    <Geozone2>Energy Data Area</Geozone2>
+  </TS5_7_1>
+  <TS5_8_1>
+    <Geozone>Energy Data Area</Geozone>
+  </TS5_8_1>
+</TC5>

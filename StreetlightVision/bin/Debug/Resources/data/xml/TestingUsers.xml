@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestingUsers>
+  <User alias="DefaultTest" userName = "defaultuser" password = "Password0~" fullName = "Default Test User" email="slv-hcmcqa@qualitusvn.com" profile = "Default Test Profile" language ="english (United States)" skin="streetlight"/>    
+  <User alias="admin" userName = "admin" password = "password" fullName = "" email="" profile = "admin" language ="english (United States)" skin="streetlight"/>
+</TestingUsers>

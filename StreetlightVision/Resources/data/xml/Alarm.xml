@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Alarm>
+  <Alarm01>
+    <AlarmInfo type="Device alarm: multiple failures on multiple devices"
+               action="Notify by eMail">
+      <General auto-acknowledge="false" refresh-rate="30 secondes" />
+      <Trigger message="multiple failures on multiple devices" failure1="Communication failure [DefaultLostNode]#DefaultLostNode" failure2="Lamp failure#LampFailure" />
+      <Actions mail-from="qa@streetlightmonitoring.com" mail-to="Default Test User slv-hcmcqa@qualitusvn.com" mail-subject="{{Alarm.name}}" mail-content="${ET} | ${FD} | ${FMS}"  />
+    </AlarmInfo>
+  </Alarm01>
+</Alarm>

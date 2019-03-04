@@ -1,0 +1,225 @@
+<AdvancedSearch>	
+	<AS01>
+		<Geozone>GeoZones\Real Time Control Area</Geozone>
+		<AllAttributes>
+      <Attribute>Account number</Attribute>
+      <Attribute>Activate</Attribute>
+      <Attribute>Address 1</Attribute>
+      <Attribute>Address 2</Attribute>
+      <Attribute>Ballast brand</Attribute>
+      <Attribute>Ballast failure</Attribute>
+      <Attribute>Ballast type</Attribute>
+      <Attribute>Bracket brand</Attribute>
+      <Attribute>Bracket color</Attribute>
+      <Attribute>Bracket model</Attribute>
+      <Attribute>Bracket type</Attribute>
+      <Attribute>Cabinet Controller</Attribute>
+      <Attribute>Cabinet wattage</Attribute>
+      <Attribute>Calendar changed</Attribute>
+      <Attribute>Calendar commission failure</Attribute>
+      <Attribute>Category</Attribute>
+      <Attribute>City</Attribute>
+      <Attribute>Color code</Attribute>
+      <Attribute>Comm. media</Attribute>
+      <Attribute>Comment</Attribute>
+      <Attribute>Communication failure</Attribute>
+      <Attribute>Communication status</Attribute>
+      <Attribute>Config status msg</Attribute>
+      <Attribute>Configuration status</Attribute>
+      <Attribute>Controller ID</Attribute>
+      <Attribute>Controller install date</Attribute>
+      <Attribute>Customer name</Attribute>
+      <Attribute>Customer number</Attribute>
+      <Attribute>Cycling count</Attribute>
+      <Attribute>Cycling lamp</Attribute>
+      <Attribute>Day burner</Attribute>
+      <Attribute>Device reset count</Attribute>
+      <Attribute>Dimming group</Attribute>
+      <Attribute>Dimming interface</Attribute>
+      <Attribute>Edge</Attribute>
+      <Attribute>Edge Mode</Attribute>
+      <Attribute>Energy supplier</Attribute>
+      <Attribute>External comms failure</Attribute>
+      <Attribute>Fixed saved power</Attribute>
+      <Attribute>Gateway Host Name</Attribute>
+      <Attribute>High current</Attribute>
+      <Attribute>High lamp voltage</Attribute>
+      <Attribute>High light level</Attribute>
+      <Attribute>High OLC temperature</Attribute>
+      <Attribute>High power</Attribute>
+      <Attribute>High-to-low delay</Attribute>
+      <Attribute>Identifier</Attribute>
+      <Attribute>Install status</Attribute>
+      <Attribute>Invalid calendar</Attribute>
+      <Attribute>Invalid program</Attribute>
+      <Attribute>Lamp burning hours</Attribute>
+      <Attribute>Lamp command mode</Attribute>
+      <Attribute>Lamp energy</Attribute>
+      <Attribute>Lamp failure</Attribute>
+      <Attribute>Lamp install date</Attribute>
+      <Attribute>Lamp level command</Attribute>
+      <Attribute>Lamp level feedback</Attribute>
+      <Attribute>Lamp switch command</Attribute>
+      <Attribute>Lamp switch feedback</Attribute>
+      <Attribute>Lamp Type</Attribute>
+      <Attribute>Lamp wattage (W)</Attribute>
+      <Attribute>Last event log sequence</Attribute>
+      <Attribute>Last event request time</Attribute>
+      <Attribute>Last IMU log sequence</Attribute>
+      <Attribute>Last IMU request time</Attribute>
+      <Attribute>Last meter log sequence</Attribute>
+      <Attribute>Last meter request time</Attribute>
+      <Attribute>Latitude</Attribute>
+      <Attribute>Light control mode</Attribute>
+      <Attribute>Light distribution</Attribute>
+      <Attribute>Longitude</Attribute>
+      <Attribute>Low current</Attribute>
+      <Attribute>Low lamp voltage</Attribute>
+      <Attribute>Low power</Attribute>
+      <Attribute>Low power factor</Attribute>
+      <Attribute>Low-to-high delay</Attribute>
+      <Attribute>Luminaire brand</Attribute>
+      <Attribute>Luminaire install date</Attribute>
+      <Attribute>Luminaire model</Attribute>
+      <Attribute>Luminaire type</Attribute>
+      <Attribute>Lux level (Lux)</Attribute>
+      <Attribute>Mains control mode</Attribute>
+      <Attribute>Mains current</Attribute>
+      <Attribute>Mains voltage (V)</Attribute>
+      <Attribute>Maintain delay</Attribute>
+      <Attribute>Map number</Attribute>
+      <Attribute>Metered power (W)</Attribute>
+      <Attribute>Network type</Attribute>
+      <Attribute>Open circuit</Attribute>
+      <Attribute>Orientation</Attribute>
+      <Attribute>Pole color code</Attribute>
+      <Attribute>Pole height</Attribute>
+      <Attribute>Pole install date</Attribute>
+      <Attribute>Pole material</Attribute>
+      <Attribute>Pole or head install</Attribute>
+      <Attribute>Pole shape</Attribute>
+      <Attribute>Pole status</Attribute>
+      <Attribute>Pole type</Attribute>
+      <Attribute>Power Supply Failure</Attribute>
+      <Attribute>Program changed</Attribute>
+      <Attribute>Relay1CommandMode</Attribute>
+      <Attribute>Relay1Level</Attribute>
+      <Attribute>Relay1State</Attribute>
+      <Attribute>Relay failure</Attribute>
+      <Attribute>Section</Attribute>
+      <Attribute>Segment</Attribute>
+      <Attribute>Sensor group</Attribute>
+      <Attribute>Software version</Attribute>
+      <Attribute>Start delay</Attribute>
+      <Attribute>Status</Attribute>
+      <Attribute>Sum power factor</Attribute>
+      <Attribute>Supply losses</Attribute>
+      <Attribute>Switch ON counter</Attribute>
+      <Attribute>TalqAddress</Attribute>
+      <Attribute>Temperature</Attribute>
+      <Attribute>Type of equipment</Attribute>
+      <Attribute>Type of ground fixing</Attribute>
+      <Attribute>Unique address</Attribute>
+      <Attribute>Zip code</Attribute>
+		</AllAttributes>
+		<CheckedAttributes>
+			<Attribute>Address 1</Attribute>
+			<Attribute>Configuration status</Attribute>
+			<Attribute>Dimming group</Attribute>
+			<Attribute>Install status</Attribute>
+      <Attribute>Unique address</Attribute>      
+		</CheckedAttributes>
+	</AS01>
+	<AS02>
+		<Geozone>GeoZones\Real Time Control Area</Geozone>
+		<Filter>
+			<Name>Device</Name>
+			<Operator>contains</Operator>
+			<Value>Telematics 02</Value>
+		</Filter>
+	</AS02>
+	<AS03>
+		<Geozone>GeoZones\Real Time Control Area</Geozone>
+		<SearchName1>Search_1_AS03</SearchName1>
+		<SearchName2>Search_2_AS03</SearchName2>
+	</AS03>
+	<AS04>
+		<Geozone>GeoZones\Real Time Control Area</Geozone>
+		<Filter>
+			<Name>Device</Name>
+			<Operator>contains</Operator>
+			<Value>Telematics</Value>
+		</Filter>
+	</AS04>
+	<AS05>
+		<Geozone>GeoZones\Real Time Control Area</Geozone>    
+		<CheckedAttributes>
+			<Attribute>Address 1</Attribute>
+			<Attribute>Configuration status</Attribute>
+			<Attribute>Dimming group</Attribute>
+			<Attribute>Install status</Attribute>    
+			<Attribute>Unique address</Attribute>      
+		</CheckedAttributes>
+	</AS05>
+	<AS06>
+		<Geozone>GeoZones\Real Time Control Area</Geozone>		
+	</AS06>
+	<AS07>
+		<Geozone>GeoZones\Real Time Control Area</Geozone>
+		<Filter>
+			<Name>Device</Name>
+			<Operator>contains</Operator>
+			<Value>Telematics 02</Value>
+		</Filter>
+	</AS07>
+	<AS09>
+		<Geozone>GeoZones\Real Time Control Area</Geozone>
+	</AS09>
+	<AS11>
+		<Geozone>GeoZones\Real Time Control Area</Geozone>
+	</AS11>
+  <AS12>
+		<Geozone>GeoZones\Real Time Control Area</Geozone>
+	</AS12>
+  <AS13>
+		<Geozone>GeoZones\Real Time Control Area</Geozone>
+	</AS13>
+  <AS14>
+		<Geozone>GeoZones\Real Time Control Area</Geozone>
+	</AS14>
+  <AS15>
+		<Geozone>GeoZones\Real Time Control Area</Geozone>
+	</AS15>
+  <AS16>
+    <Geozone>GeoZones\Real Time Control Area</Geozone>
+  </AS16>
+  <AS17>
+    <Geozone>GeoZones\Real Time Control Area</Geozone>
+  </AS17>
+  <AS1426883>
+    <Geozone>Automation\All device types</Geozone>
+    <Categories>
+      <Category>Controller Device</Category>
+      <Category>Building</Category>
+      <Category>Camera IP</Category>
+      <Category>City object</Category>
+      <Category>Electrical Counter</Category>
+      <Category>Environmental Sensor</Category>
+      <Category>Inputs</Category>
+      <Category>Nature</Category>
+      <Category>Network component</Category>
+      <Category>Occupancy sensor</Category>
+      <Category>Outputs</Category>
+      <Category>Parking place</Category>
+      <Category>StreetLight</Category>
+      <Category>Switch Device</Category>
+      <Category>Tank</Category>
+      <Category>Transport Signage</Category>
+      <Category>Vehicle</Category>
+      <Category>Vehicle Charging Station</Category>
+      <Category>Weather station</Category>
+      <Category>Waste container</Category>
+      <Category>Cabinet Controller</Category>
+    </Categories>
+  </AS1426883>
+</AdvancedSearch>

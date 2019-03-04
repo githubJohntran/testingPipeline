@@ -1,0 +1,132 @@
+<ReportManager>	
+	<RM_01>
+		<GeoZone>GeoZones\Automation</GeoZone>
+	</RM_01>
+  <RM_02>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_02>
+  <RM_03>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_03>
+  <RM_04>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_04>
+  <RM_05>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_05>
+  <RM_06>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_06>  
+  <RM_07>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_07>  
+  <RM_08>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_08>
+  <RM_09>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_09>  
+  <RM_10>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_10>
+  <RM_11>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_11>
+  <RM_12>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_12>
+  <RM_13>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_13>
+  <RM_14>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_14>
+  <RM_15>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_15>
+  <RM_16>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_16>
+  <RM_17>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_17>
+  <RM_18>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_18>
+  <RM_19>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_19>  
+  <RM_20>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_20>  
+  <RM_21>
+    <GeoZone>GeoZones\Energy Data Area</GeoZone>
+  </RM_21>
+  <RM_22>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_22>
+  <RM_23>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_23>  
+  <RM_24>
+    <GeoZoneA>Automation</GeoZoneA>
+    <GeoZoneB>Real Time Control Area</GeoZoneB>
+  </RM_24>
+  <RM_25>
+    <GeoZone>GeoZones\Automation</GeoZone>
+  </RM_25>
+  <RM_26>
+    <Geozone>GeoZones</Geozone>
+    <ReportData ReportType="Generic device values [Run Once]" MailEnabled="true" MailFormat="CSV" ReportMailBody="false" FtpFormat="CSV" />
+    <Mail From="qa@streetlightmonitoring.com" Contacts="Default Test User slv-hcmcqa@qualitusvn.com"  />
+    <Ftp Host="slvci-01.eng.ssnsgs.net" SFTPMode="false" User="slvhcmc" Password="SLV2017" Directory="drop-box/" PassiveMode="true" Enabled="true"/>
+  </RM_26>
+  <RM_27>
+    <Geozone>GeoZones\Automation</Geozone>
+    <ReportData ReportType="Failures HTML report" ReportDetails="All devices" FilteringMode="Auto" Periodicity="Every day" />
+    <Mail From="qa@streetlightmonitoring.com" Contacts="Default Test User slv-hcmcqa@qualitusvn.com"  />
+  </RM_27>
+  <RM_28>
+    <Geozone>GeoZones\Automation</Geozone>
+    <ReportData ReportType="Rapport de pannes HTML" ReportDetails="All devices" FilteringMode="Auto" Periodicity="Chaque jour" Timezone ="Temps universel coordonné [+00:00] [UCT]" />
+    <Mail From="qa@streetlightmonitoring.com" Contacts="Default Test User slv-hcmcqa@qualitusvn.com"  />
+  </RM_28>
+  <RM_29>
+    <Geozone>GeoZones\Automation</Geozone>
+    <ReportData ReportType="Generic device values [Run Once]" MailEnabled="true" MailFormat="Html" ReportMailBody="false" />
+    <Mail From="qa@streetlightmonitoring.com" Contacts="Default Test User slv-hcmcqa@qualitusvn.com" />
+  </RM_29>
+  <RM_30>
+    <Geozone>GeoZones\Automation</Geozone>
+    <ReportData ReportType="Rapport générique historique variables (Exécution unique)" MailEnabled="true" MailFormat="Html" ReportMailBody="false" />
+    <Mail From="qa@streetlightmonitoring.com" Contacts="Default Test User slv-hcmcqa@qualitusvn.com"  />
+  </RM_30>
+  <RM_31>
+    <Geozone>GeoZones\Automation\Free Geozones</Geozone>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+    <ReportData ReportType="Failures HTML report" ReportDetails="All devices" FilteringMode="No Filter" Periodicity="Every day" />
+    <Mail From="qa@streetlightmonitoring.com" Contacts="Default Test User slv-hcmcqa@qualitusvn.com" />
+  </RM_31>
+  <RM_32>
+    <Geozone>GeoZones\Automation\Free Geozones</Geozone>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+    <ReportData ReportType="Rapport de pannes HTML" ReportDetails="All devices" FilteringMode="No Filter" Periodicity="Chaque jour" Timezone ="Temps universel coordonné [+00:00] [UCT]"/>
+    <Mail From="qa@streetlightmonitoring.com" />
+  </RM_32>
+  <RM_34>
+    <ReportData ReportType="Advanced Search Report" Periodicity="Every day" MailEnabled="true" MailFormat="CSV" ReportMailBody="false" FtpFormat="CSV" />
+    <Mail From="qa@streetlightmonitoring.com" Contacts="Default Test User slv-hcmcqa@qualitusvn.com" />
+    <Ftp Host="slvci-01.eng.ssnsgs.net" SFTPMode="false" User="slvhcmc" Password="SLV2017" Directory="drop-box/" PassiveMode="true" Enabled="true"/>
+  </RM_34>
+  <RM_35>
+    <ReportData ReportType="Advanced Search Report" Periodicity="Every day" MailEnabled="true" MailFormat="CSV" ReportMailBody="false" FtpFormat="CSV" />
+    <Mail From="qa@streetlightmonitoring.com" Contacts="Default Test User slv-hcmcqa@qualitusvn.com" />
+    <Ftp Host="slvci-01.eng.ssnsgs.net" SFTPMode="false" User="slvhcmc" Password="SLV2017" Directory="drop-box/" PassiveMode="true" Enabled="true"/>
+  </RM_35>
+  <RM_36>
+    <Geozone>GeoZones</Geozone>
+    <ReportData ReportType="Generic device values [Run Once]" MailEnabled="true" MailFormat="CSV" ReportMailBody="false" FtpFormat="CSV" />
+    <Mail From="qa@streetlightmonitoring.com" Contacts="Default Test User slv-hcmcqa@qualitusvn.com"  />
+    <Ftp Host="slvci-01.eng.ssnsgs.net" User="slvhcmc" Password="SLV2017" Directory="drop-box/" PassiveMode="true" Enabled="true"/>
+  </RM_36>
+</ReportManager>

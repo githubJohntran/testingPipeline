@@ -1,0 +1,112 @@
+<BackOffice>
+  <BO_02_01>
+    <Apps>
+      <App>General</App>
+      <App>Desktop</App>
+      <App>Equipment Inventory</App>
+      <App>Real-Time Control</App>
+      <App>Data History</App>
+      <App>Device History</App>
+      <App>Failure Analysis</App>
+      <App>Failure Tracking</App>
+      <App>Advanced Search</App>
+    </Apps>
+  </BO_02_01>
+  <BO_03_02>
+    <Timeout>2</Timeout>
+  </BO_03_02>
+  <BO_03_04>
+    <CsvSeparator>,</CsvSeparator>
+  </BO_03_04>
+  <BO_04_02>
+      <Apps>
+        <App>Failure Analysis</App>
+        <App>Failure Tracking</App>
+        <App>Real-Time Control</App>
+        <App>Batch Control</App>
+        <App>Alarms</App>
+        <App>Energy</App>
+        <App>Monthly Energy Saving</App>
+        <App>Lifetime</App>
+        <App>Data History</App>
+        <App>Device History</App>
+        <App>Equipment Inventory</App>
+        <App>Users</App>
+        <App>Alarm Manager</App>
+        <App>Report Manager</App>
+        <App>Scheduling Manager</App>
+        <App>Dashboard</App>
+        <App>Control Center</App>
+        <App>Inventory Verification</App>
+        <App>Installation</App>
+        <App>Advanced Search</App>
+        <App>Log Viewer</App>
+      </Apps>
+      <Widgets>
+        <Widget>Gateway</Widget>
+        <Widget>Luminaire Controller</Widget>
+        <Widget>Electricity Meter</Widget>
+        <Widget>Camera</Widget>
+        <Widget>Weather</Widget>
+        <Widget>Clock</Widget>
+        <Widget>Vehicle Charging Station</Widget>
+        <Widget>GeoZone Failures Monitor</Widget>
+        <Widget>Pollution Sensor</Widget>
+        <Widget>XCam Monitor</Widget>
+        <Widget>Sunrise Sunset Times</Widget>
+        <Widget>IoT Edge Router Status</Widget>
+        <Widget>Environmental Sensor</Widget>
+      </Widgets>
+    </BO_04_02>  
+  <BO_05_02>
+    <Geozone>Real Time Control Area</Geozone>
+  </BO_05_02>
+  <BO_05_04>
+    <Geozone>Automation\All device types</Geozone>
+  </BO_05_04>
+  <BO_05_05>
+    <Geozone>Automation</Geozone>
+  </BO_05_05>
+  <BO_05_06>
+    <Geozone>Automation</Geozone>
+  </BO_05_06>
+  <BO_05_07>
+    <RowsPerPage>150</RowsPerPage>
+  </BO_05_07>
+  <BO_06_02>
+    <Geozone>Real Time Control Area</Geozone>
+  </BO_06_02>
+  <BO_07_02>
+    <Geozone>Real Time Control Area</Geozone>
+  </BO_07_02>
+  <BO_07_03>
+    <Geozone>Automation</Geozone>
+  </BO_07_03>
+  <BO_07_04>
+    <Geozone>Automation</Geozone>
+    <RowsPerPage>150</RowsPerPage>
+  </BO_07_04>
+  <BO_08_02>
+    <Geozone>Real Time Control Area</Geozone>
+  </BO_08_02>
+  <BO_08_03>
+    <Geozone>Real Time Control Area</Geozone>
+  </BO_08_03>
+  <BO_08_04>
+    <Geozone>Automation</Geozone>
+    <RowsPerPage>150</RowsPerPage>
+  </BO_08_04>
+  <BO_09_02>
+    <Geozone>Real Time Control Area</Geozone>
+  </BO_09_02>
+  <BO_10_02>
+    <Geozone>Real Time Control Area</Geozone>
+  </BO_10_02>
+  <BO_11_02>
+    <Geozone>Automation</Geozone>
+  </BO_11_02>
+  <BO_11_03>
+    <Geozone>Automation</Geozone>
+    <RowsPerPage>150</RowsPerPage>
+  </BO_11_03>
+</BackOffice>

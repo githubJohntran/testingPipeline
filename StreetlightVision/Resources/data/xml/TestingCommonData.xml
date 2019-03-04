@@ -1,0 +1,21 @@
+<TestingData>
+  <Geozone name="Real Time Control Area" path="Real Time Control Area">
+    <Working>
+      <Controller name="Smartsims" id="smartsims" latitude="48.850563049316406" longitude="2.342787027359009" controlTechnology="Open South Bound XML Web API" uniqueAddress="3AA8D05E4001" timeZone="Europe/Paris"  />
+      <Streetlight name="Telematics 01" id="lamp01" controller="Smartsims" latitude="48.8503303527832" longitude="2.3426594734191895" typeOfEquipment="Telematics LCU" uniqueAddress="3AA8D05E4002" dimmingGroup="SlvDemoGroup2" cluster=""/>
+      <Streetlight name="Telematics 02" id="lamp02" controller="Smartsims" latitude="48.8501091003418" longitude="2.3425285816192627" typeOfEquipment="Telematics LCU" uniqueAddress="AF0D30FD5F4B" dimmingGroup="SlvDemoGroup2" cluster=""/>
+      <Streetlight name="Telematics 03" id="lamp03" controller="Smartsims" latitude="48.84990692138672" longitude="2.3424148559570312" typeOfEquipment="Telematics LCU" uniqueAddress="3AA8D05E4004" dimmingGroup="SlvDemoGroup2" cluster=""/>
+      <Streetlight name="Telematics 04" id="lamp04" controller="Smartsims" latitude="48.849693298339844" longitude="2.342311143875122" typeOfEquipment="Telematics LCU" uniqueAddress="3AA8D05E4005" dimmingGroup="SlvDemoGroup3" cluster=""/>
+      <Streetlight name="Telematics 05" id="lamp05" controller="Smartsims" latitude="48.8494987487793" longitude="2.3422069549560547" typeOfEquipment="Telematics LCU" uniqueAddress="3AA8D05E4006" dimmingGroup="SlvDemoGroup3" cluster=""/>
+      <Streetlight name="Telematics 06" id="lamp06" controller="Smartsims" latitude="48.85013552768723" longitude="2.3431311455010473" typeOfEquipment="Telematics LCU" uniqueAddress="3AA8D05E4016" dimmingGroup="SlvDemoGroup3" cluster="1"/>
+      <Streetlight name="Telematics 07" id="lamp07" controller="Smartsims" latitude="48.85013552768723" longitude="2.3431311455010473" typeOfEquipment="Telematics LCU" uniqueAddress="3AA8D05E4017" dimmingGroup="SlvDemoGroup3" cluster="1"/>
+      <Streetlight name="Telematics 08" id="lamp08" controller="Smartsims" latitude="48.84992391825381" longitude="2.343706357304569" typeOfEquipment="Telematics LCU" uniqueAddress="3AA8D05E4018" dimmingGroup="SlvDemoGroup2" cluster="2"/>
+      <Streetlight name="Telematics 09" id="lamp09" controller="Smartsims" latitude="48.84992391825381" longitude="2.343706357304569" typeOfEquipment="Telematics LCU" uniqueAddress="3AA8D05E4019" dimmingGroup="SlvDemoGroup2" cluster="2"/>
+    </Working>
+    <NonWorking>
+      <Controller name="Test Controller" id="testcontroller" latitude="48.85081100463867" longitude="2.3429129123687744" controlTechnology="iLON Segment Controller Version 4" uniqueAddress="" timeZone="Europe/Paris"/>
+      <Streetlight name="XNone Working 1" id="nonworking" controller="Test Controller" latitude="48.85081481933594" longitude="2.343118667602539" typeOfEquipment="Telematics LCU" uniqueAddress="" dimmingGroup="" cluster=""/>
+      <Streetlight name="XNone Working 2" id="nonworking2" controller="Test Controller" latitude="48.8508186340332" longitude="2.34330153465271" typeOfEquipment="Telematics LCU" uniqueAddress="" dimmingGroup="" cluster=""/>
+    </NonWorking>
+  </Geozone>
+</TestingData>

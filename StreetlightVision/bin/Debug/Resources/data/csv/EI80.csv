@@ -1,0 +1,12 @@
+categoryStrId;controllerStrId;dimmingGroupName;geoZone path;idOnController;lat;lng;name;model;macAddress
+streetlight;vietnamcontroller;;GeoZones/EI_80;EI80STL01;10.80099;106.663895;EI80STL01;xmllightpoint.telematics:dimmer0;
+streetlight;vietnamcontroller;;GeoZones/EI_80;EI80STL02;10.80109;106.663905;EI80STL02;xmllightpoint.telematics:dimmer0;
+streetlight;vietnamcontroller;;GeoZones/EI_80;EI80STL03;10.80119;106.663915;EI80STL03;xmllightpoint.telematics:dimmer0;
+streetlight;vietnamcontroller;;GeoZones/EI_80;EI80STL04;10.80129;106.663925;EI80STL04;xmllightpoint.telematics:dimmer0;
+streetlight;vietnamcontroller;;GeoZones/EI_80;EI80STL05;10.80139;106.663935;EI80STL05;xmllightpoint.telematics:dimmer0;
+streetlight;vietnamcontroller;;GeoZones/EI_80;EI80STL06;10.80149;106.663945;EI80STL06;xmllightpoint.telematics:dimmer0;
+streetlight;vietnamcontroller;;GeoZones/EI_80;EI80STL07;10.80159;106.663945;EI80STL07;xmllightpoint.telematics:dimmer0;
+streetlight;vietnamcontroller;;GeoZones/EI_80;EI80STL08;10.80169;106.663965;EI80STL08;xmllightpoint.telematics:dimmer0;
+streetlight;vietnamcontroller;;GeoZones/EI_80;EI80STL09;10.80179;106.663975;EI80STL09;xmllightpoint.telematics:dimmer0;
+streetlight;vietnamcontroller;;GeoZones/EI_80;EI80STL10;10.80189;106.663985;EI80STL10;xmllightpoint.telematics:dimmer0;
+streetlight;vietnamcontroller;;GeoZones/EI_80;EI80STL11;10.80199;106.663995;EI80STL11;xmllightpoint.telematics:dimmer0;

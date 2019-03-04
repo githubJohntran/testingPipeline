@@ -1,0 +1,238 @@
+<DataHistory>
+  <DA_01>
+    <Geozone>Automation\All device types</Geozone>
+    <StreetlightMeterings>
+      <Attribute>Active energy (KWh)</Attribute>
+      <Attribute>Lamp burning hours</Attribute>
+      <Attribute>Lamp command mode</Attribute>
+      <Attribute>Lamp current</Attribute>
+      <Attribute>Lamp level command</Attribute>
+      <Attribute>Lamp level feedback</Attribute>
+      <Attribute>Lamp switch command</Attribute>
+      <Attribute>Lamp switch feedback</Attribute>
+      <Attribute>Lamp voltage (V)</Attribute>
+      <Attribute>Mains current</Attribute>
+      <Attribute>Mains voltage (V)</Attribute>
+      <Attribute>Metered power (W)</Attribute>
+      <Attribute>Sum power factor</Attribute>
+      <Attribute>Temperature</Attribute>
+    </StreetlightMeterings>
+    <StreetlightFailures>
+      <Attribute>Communication failure</Attribute>
+      <Attribute>Driver temperature too high</Attribute>
+      <Attribute>External comms failure</Attribute>
+      <Attribute>High voltage</Attribute>
+      <Attribute>Lamp failure</Attribute>
+      <Attribute>Lamp restart count</Attribute>
+    </StreetlightFailures>
+    <ControllerMeterings>
+      <Attribute>1-Modbus input 1</Attribute>
+      <Attribute>2-Modbus input 2</Attribute>
+      <Attribute>3-Modbus input 3</Attribute>
+      <Attribute>4-Modbus input 4</Attribute>
+      <Attribute>5-Modbus input 5</Attribute>
+      <Attribute>6-Modbus input 6</Attribute>
+      <Attribute>7-Modbus input 7</Attribute>
+      <Attribute>8-Modbus input 8</Attribute>
+      <Attribute>9-Modbus input 9</Attribute>
+      <Attribute>10-Modbus input 10</Attribute>
+      <Attribute>11-Modbus input 11</Attribute>
+      <Attribute>12-Modbus input 12</Attribute>
+      <Attribute>Analog input 1</Attribute>
+      <Attribute>Analog input 2</Attribute>
+      <Attribute>Analog input 3</Attribute>
+      <Attribute>Digital Input 1</Attribute>
+      <Attribute>Digital Input 2</Attribute>
+      <Attribute>Digital Output 1</Attribute>
+      <Attribute>Digital Output 2</Attribute>
+    </ControllerMeterings>
+    <ControllerFailures>
+      <Attribute>Manual mode Output1</Attribute>
+      <Attribute>Manual mode Output2</Attribute>
+      <Attribute>Segment 1 - Failure</Attribute>
+      <Attribute>Segment 2 - Failure</Attribute>
+      <Attribute>Segment 3 - Failure</Attribute>
+      <Attribute>Segment 4 - Failure</Attribute>
+      <Attribute>Segment 5 - Failure</Attribute>
+      <Attribute>Segment 6 - Failure</Attribute>
+      <Attribute>Segment 7 - Failure</Attribute>
+      <Attribute>Segment 8 - Failure</Attribute>
+      <Attribute>Segment 9 - Failure</Attribute>
+      <Attribute>Segment 10 - Failure</Attribute>
+      <Attribute>Segment 11 - Failure</Attribute>
+      <Attribute>Segment 12 - Failure</Attribute>
+    </ControllerFailures>
+    <MeterMeterings>
+      <Attribute>Active energy (KWh)</Attribute>
+      <Attribute>Active Energy-L1(kWh)</Attribute>
+      <Attribute>Active Energy-L2(kWh)</Attribute>
+      <Attribute>Active Energy-L3(kWh)</Attribute>
+      <Attribute>Active power (W)</Attribute>
+      <Attribute>Apparent Power-L1(VA)</Attribute>
+      <Attribute>Apparent Power-L2(VA)</Attribute>
+      <Attribute>Apparent Power-L3(VA)</Attribute>
+      <Attribute>Current - L1 (A)</Attribute>
+      <Attribute>Current - L2 (A)</Attribute>
+      <Attribute>Current - L3 (A)</Attribute>
+      <Attribute>Frequency (Hz)</Attribute>
+      <Attribute>Power Factor - L1</Attribute>
+      <Attribute>Power factor - L2</Attribute>
+      <Attribute>Power factor - L3</Attribute>
+      <Attribute>Reactive Power-L1(VAR)</Attribute>
+      <Attribute>Reactive Power-L2(VAR)</Attribute>
+      <Attribute>Reactive Power-L3(VAR)</Attribute>
+      <Attribute>Sum apparent power (VA)</Attribute>
+      <Attribute>Sum reactive power (VAR)</Attribute>
+      <Attribute>Total reactive energy (kVARh)</Attribute>
+      <Attribute>Voltage - L1 (V)</Attribute>
+      <Attribute>Voltage - L2 (V)</Attribute>
+      <Attribute>Voltage - L3 (V)</Attribute>
+      <Attribute>Voltage L1-L2 (V)</Attribute>
+      <Attribute>Voltage L2-L3 (V)</Attribute>
+      <Attribute>Voltage L3-L1 (V)</Attribute>
+    </MeterMeterings>   
+  </DA_01>
+  <DA_02>
+    <OlsonTimeZoneId>America/Los_Angeles</OlsonTimeZoneId>
+  </DA_02>
+  <DA_03>
+    <OlsonTimeZoneId>America/Los_Angeles</OlsonTimeZoneId>
+  </DA_03>
+  <DA_04>    
+    <SearchFields>
+      <Field>Device</Field>
+      <Field>Dimming group</Field>
+      <Field>Lamp level command</Field>
+      <Field>Lamp command mode</Field>
+      <Field>Mains current</Field>
+      <Field>Mains voltage (V)</Field>
+      <Field>Metered power (W)</Field>
+      <Field>Lux level (Lux)</Field>
+      <Field>Temperature</Field>
+      <Field>Power Supply Failure</Field>
+      <Field>Lamp failure</Field>
+      <Field>Relay failure</Field>
+      <Field>Calendar changed</Field>      
+      <Field>Ballast failure</Field>
+      <Field>Cycle count</Field>
+      <Field>Cycling lamp</Field>
+      <Field>Driver temperature (°C)</Field>
+      <Field>Flicker count</Field>
+      <Field>High current</Field>
+      <Field>High OLC temperature</Field>
+      <Field>High voltage</Field>
+      <Field>Lamp burning hours</Field>
+      <Field>Lamp current</Field>
+      <Field>Active energy (KWh)</Field>
+      <Field>Lamp level feedback</Field>
+      <Field>Lamp switch command</Field>
+      <Field>Lamp switch feedback</Field>
+      <Field>Lamp Type</Field>
+      <Field>Lamp voltage (V)</Field>
+      <Field>Lamp wattage (W)</Field>
+      <Field>Low current</Field>
+      <Field>Low power factor</Field>
+      <Field>Low voltage</Field>
+      <Field>Sum power factor</Field>
+      <Field>TalqAddress</Field>
+      <Field>Type of equipment</Field>
+      <Field>Unique address</Field>
+    </SearchFields>
+  </DA_04>
+  <DA_11>
+    <EquipmentTypes>
+      <Type id ="xmllightpoint.telematics:dimmer0" name="Telematics LCU"/>
+      <Type id ="talq.streetlight.v1:Lamp" name="TALQ Streetlight[Lamp]"/>
+      <Type id ="xmllightpoint.lumeniq.v1:dimmer0" name="LRL LumenIQ Node[Lamp]"/>
+      <Type id ="echelon.cpd3000v2:Lamp" name="Echelon CPD3000 LonMark 3514[Ballast]"/>
+      <Type id ="sslightpoint.selc.wls.v1:lamp0" name="SSN Selc Dim Photocell[Lamp #0]"/>
+      <Type id ="abel-vigilon-A:Lamp" name="ABEL-Vigilon A[Dimmable ballast]"/>
+      <Type id ="sslightpoint.cimcon.pc.v1:lamp0" name="SSN Cimcon Dim Photocell[Lamp #0]"/>
+    </EquipmentTypes>
+    <LampTypes>
+      <Type id ="554" name="HPS 2X150W Ferro"/>
+      <Type id ="512" name="HPS 100W Ferro"/>
+      <Type id ="568" name="HPS 400W Ferro"/>
+      <Type id ="526" name="HPS 150W Ferro"/>
+      <Type id ="575" name="HPS 70W Ferro"/>
+    </LampTypes>
+    <DimmingGroups>
+      <DimmingGroup>CalFailure</DimmingGroup>
+      <DimmingGroup>SlvDemoGroup2</DimmingGroup>
+      <DimmingGroup>SlvDemoGroup3</DimmingGroup>
+    </DimmingGroups>
+  </DA_11>
+  <DA_12>
+    <EquipmentTypes>
+      <Type id ="xmllightpoint.telematics:dimmer0" name="Telematics LCU"/>
+      <Type id ="talq.streetlight.v1:Lamp" name="TALQ Streetlight[Lamp]"/>
+      <Type id ="xmllightpoint.lumeniq.v1:dimmer0" name="LRL LumenIQ Node[Lamp]"/>
+      <Type id ="echelon.cpd3000v2:Lamp" name="Echelon CPD3000 LonMark 3514[Ballast]"/>
+      <Type id ="sslightpoint.selc.wls.v1:lamp0" name="SSN Selc Dim Photocell[Lamp #0]"/>
+      <Type id ="abel-vigilon-A:Lamp" name="ABEL-Vigilon A[Dimmable ballast]"/>
+      <Type id ="sslightpoint.cimcon.pc.v1:lamp0" name="SSN Cimcon Dim Photocell[Lamp #0]"/>
+    </EquipmentTypes>
+    <LampTypes>
+      <Type id ="554" name="HPS 2X150W Ferro"/>
+      <Type id ="512" name="HPS 100W Ferro"/>
+      <Type id ="568" name="HPS 400W Ferro"/>
+      <Type id ="526" name="HPS 150W Ferro"/>
+      <Type id ="575" name="HPS 70W Ferro"/>
+    </LampTypes>
+    <DimmingGroups>
+      <DimmingGroup>CalFailure</DimmingGroup>
+      <DimmingGroup>SlvDemoGroup2</DimmingGroup>
+      <DimmingGroup>SlvDemoGroup3</DimmingGroup>
+    </DimmingGroups>
+  </DA_12>
+ <DA_17>
+    <EquipmentTypes>
+      <Type id ="sslightpoint.cimcon.pc.v1:lamp0" name="SSN Cimcon Dim Photocell[Lamp #0]"/>
+      <Type id ="sslightpoint.enlight.pc.v1:lamp0" name="SSN Enlight SCD220 Photocell[Lamp \#0]"/>
+      <Type id ="sslightpoint.enlight.cn.v1:lamp0" name="SSN Enlight SCD230 Node[Lamp #0]"/>
+      <Type id ="sslightpoint.lrl.led.v1:lamp0" name="SSN LRL Integrated LED[Lamp \#0]"/>
+      <Type id ="ssonofflightpoint.v1:onofflamp0" name="SSN Pulsadis On/Off[Lamp #0]"/>
+      <Type id ="sslightpoint.v1:lamp0" name="SSN Selc Control Node[Lamp #0]"/>
+      <Type id ="sslightpoint.selc.wls.v1:lamp0" name="SSN Selc Dim Photocell[Lamp #0]"/>
+      <Type id ="ssonofflightpoint.selc.wls.v1:onofflamp0" name="SSN Selc Photocell On/Off[onofflamp0]"/>
+      <Type id ="sslightpoint.suntech.wls.v1:lamp0" name="SSN Sun-Tech Dim Photocell[Lamp #0]"/>
+      <Type id ="ssonofflightpoint.suntech.wls.v1:onofflamp0" name="SSN Sun-Tech Photocell On/Off[onofflamp0]"/>
+    </EquipmentTypes>    
+  </DA_17>
+  <DA_18>
+    <Meterings>
+      <Attribute>Active energy (KWh)</Attribute>
+      <Attribute>Active power (W)</Attribute>
+      <Attribute>Calendar changed</Attribute>
+      <Attribute>Current - L1 (A)</Attribute>
+      <Attribute>Current - L2 (A)</Attribute>
+      <Attribute>Current - L3 (A)</Attribute>
+      <Attribute>Mains current</Attribute>
+      <Attribute>Power - L1 (W)</Attribute>
+      <Attribute>Power - L2 (W)</Attribute>
+      <Attribute>Power - L3 (W)</Attribute>
+      <Attribute>Program changed</Attribute>
+      <Attribute>Relay1CommandMode</Attribute>
+      <Attribute>Relay1Level</Attribute>
+      <Attribute>Relay1State</Attribute>
+      <Attribute>Voltage - L1 (V)</Attribute>
+      <Attribute>Voltage - L2 (V)</Attribute>
+      <Attribute>Voltage - L3 (V)</Attribute>
+      <Attribute>Voltage average (V)</Attribute>
+    </Meterings>
+    <Failures>
+      <Attribute>Calendar commission failure</Attribute>
+      <Attribute>Communication failure</Attribute>
+      <Attribute>Door open</Attribute>
+      <Attribute>Invalid calendar</Attribute>
+      <Attribute>Invalid program</Attribute>
+      <Attribute>Power Supply Failure</Attribute>
+    </Failures>
+  </DA_18>
+  <DA_19>
+    <OlsonTimeZoneId>America/Los_Angeles</OlsonTimeZoneId>
+  </DA_19>
+  <DA_20>
+    <OlsonTimeZoneId>America/Los_Angeles</OlsonTimeZoneId>
+  </DA_20>
+</DataHistory>

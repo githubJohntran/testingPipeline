@@ -1,0 +1,111 @@
+<TC3>
+	<TS3_1_1>
+    <Controller name="Vietnam Controller" id="vietnamcontroller" />
+		<SearchAttributeValue>Unique address</SearchAttributeValue>
+		<InexistingUniqueAddress>1122334455ZZ</InexistingUniqueAddress>
+		<ExistingUniqueAddress>3AA8D05E4004</ExistingUniqueAddress>
+		<ClickDeviceRequest>/api/logging/getDeviceValueDescriptors</ClickDeviceRequest>
+		<ExportFilePattern>*DataHistory-Export*.csv</ExportFilePattern>
+    <Attributes>
+      <Attribute id="RunningHoursLamp" name="Lamp burning hours"/>
+      <Attribute id="LampCommandMode" name="Lamp command mode"/>
+      <Attribute id="LampEnergy" name="Lamp energy"/>
+      <Attribute id="LampCommandLevel" name="Lamp level command"/>
+      <Attribute id="LampLevel" name="Lamp level feedback"/>
+      <Attribute id="LampPower" name="Lamp power"/>
+      <Attribute id="LampSwitch" name="Lamp switch feedback"/>
+      <Attribute id="LampCurrent" name="Lamp current"/>
+      <Attribute id="LampVoltage" name="Lamp voltage (V)"/>
+      <Attribute id="Current" name="Mains current"/>
+      <Attribute id="MainVoltage" name="Mains voltage (V)"/>
+      <Attribute id="NodeFailureMessage" name="Node failure message"/>
+      <Attribute id="PowerFactor" name="Power factor"/>
+      <Attribute id="Temperature" name="Temperature"/>
+      <Attribute id="HighCurrent" name="High current"/>
+      <Attribute id="HighOLCTemperature" name="High OLC temperature"/>
+      <Attribute id="HighPower" name="High power"/>
+      <Attribute id="HighVoltage" name="High voltage"/>
+      <Attribute id="LampFailure" name="Lamp failure"/>
+      <Attribute id="LostCommunication" name="Lost communication"/>
+      <Attribute id="LowCurrent" name="Low current"/>
+      <Attribute id="LowPower" name="Low power"/>
+      <Attribute id="LowPowerFactor" name="Low power factor"/>
+      <Attribute id="LowVoltage" name="Low voltage"/>
+      <Attribute id="NodeFailure" name="Node Failure"/>
+      <Attribute id="UnknowIdentifier" name="Unknown identifier"/>
+      <Attribute id="Frequency" name="Frequency (Hz)"/>
+      <Attribute id="Energy" name="Lamp energy (kWH)"/>
+      <Attribute id="LuxLevel" name="Lux level (Lux)"/>
+      <Attribute id="MeteredPower" name="Metered power (W)"/>
+      <Attribute id="DefaultLostNode" name="Communication failure"/>
+      <Attribute id="FlickeringFailure" name="Cycling lamp"/>
+      <Attribute id="DayBurner" name="Day burner"/>
+      <Attribute id="OpenCircuit" name="Open circuit"/>
+      <Attribute id="RelayFailure" name="Relay failure"/>
+      <Attribute id="BallastTemp" name="Driver temperature (°C)"/>
+    </Attributes>
+	</TS3_1_1>
+	<TS3_7_1>
+		<RootGeoZone>GeoZones</RootGeoZone>
+		<ChildGeoZone>Energy Data Area</ChildGeoZone>
+		<Devices>
+			<Device>STL0001</Device>
+			<Device>STL0002</Device>
+			<Device>STL0003</Device>
+			<Device>STL0004</Device>
+			<Device>STL0005</Device>
+		</Devices>
+		<ExpectedPopupTitle>My advanced searches</ExpectedPopupTitle>
+		<ReportPrefix>AutomationReport</ReportPrefix>
+	</TS3_7_1>
+	<TS3_8_1>
+		<RootGeoZone>GeoZones</RootGeoZone>
+		<ChildGeoZone>Energy Data Area</ChildGeoZone>
+		<Devices>
+			<Device>STL0001</Device>
+			<Device>STL0002</Device>
+			<Device>STL0003</Device>
+			<Device>STL0004</Device>
+			<Device>STL0005</Device>
+		</Devices>
+		<ReportPrefix>AutomationReport</ReportPrefix>
+	</TS3_8_1>  
+  <Reports>
+    <TS3_9_1 Geozone="Real Time Control Area" ReportType="Failures HTML report" ReportDetails="All devices" FilteringMode="No filter" Periodicity="Every day" HtmlFormat="true" />
+    <TS3_10_1 Geozone="Real Time Control Area" ReportType="Failures HTML report" ReportDetails="All devices" FilteringMode="Auto" Periodicity="Every day" HtmlFormat="true"/>
+    <TS3_11_1 Geozone="Real Time Control Area" ReportType="Failures HTML report" ReportDetails="All devices" FilteringMode="Critical failures only" Periodicity="Every day" HtmlFormat="true"/>
+    <TS3_12_1 Geozone="Real Time Control Area" ReportType="Failures HTML report" ReportDetails="All devices" FilteringMode="Critical failures and warnings only" Periodicity="Every day" HtmlFormat="true"/>
+    <TS3_13_1 Geozone="Automation" ReportType="Failures HTML report" ReportDetails="All devices" FilteringMode="Critical failures and warnings only" Periodicity="Every day" HtmlFormat="true"/>
+    <TS3_14_1 Geozone="Real Time Control Area" ReportType="Failures HTML report" ReportDetails="All devices" FilteringMode="No filter" Periodicity="Every day" HtmlFormat="false"/>
+    <TS3_14_2 Geozone="Real Time Control Area" ReportType="Failures HTML report" ReportDetails="All devices" FilteringMode="Auto" Periodicity="Every day" HtmlFormat="false"/>
+    <TS3_14_3 Geozone="Real Time Control Area" ReportType="Failures HTML report" ReportDetails="All devices" FilteringMode="Critical failures only" Periodicity="Every day" HtmlFormat="false"/>
+    <TS3_14_4 Geozone="Real Time Control Area" ReportType="Failures HTML report" ReportDetails="All devices" FilteringMode="Critical failures and warnings only" Periodicity="Every day" HtmlFormat="false"/>
+    <TS3_14_5 Geozone="Automation" ReportType="Failures HTML report" ReportDetails="All devices" FilteringMode="Critical failures and warnings only" Periodicity="Every day" HtmlFormat="false"/>
+    <TS3_15_1 Geozone="Real Time Control Area" ReportType="Weekly Energy Report" Periodicity="Every day" HtmlFormat="true"/>
+    <TS3_16_1 Geozone="Automation" ReportType="Weekly Energy Report" Periodicity="Every day" HtmlFormat="true"/>
+    <TS3_17_1 Geozone="Real Time Control Area" ReportType="Weekly Energy Report" Periodicity="Every day" HtmlFormat="false"/>
+    <TS3_17_2 Geozone="GeoZones" ReportType="Weekly Energy Report" Periodicity="Every day" HtmlFormat="false"/>
+    <TS3_18_1 Geozone="Real Time Control Area" ReportType="Lifetime report" CriticalLifetime="10" Periodicity="Every day" HtmlFormat="true"/>
+    <TS3_19_1 Geozone="GeoZones" ReportType="Lifetime report" CriticalLifetime="10" Periodicity="Every day" HtmlFormat="true"/>
+    <TS3_20_1 Geozone="Real Time Control Area" ReportType="Lifetime report" CriticalLifetime="10" Periodicity="Every day" HtmlFormat="false"/>
+    <TS3_20_2 Geozone="GeoZones" ReportType="Lifetime report" CriticalLifetime="10" Periodicity="Every day" HtmlFormat="false"/>
+    <TS3_21_1 Geozone="Automation" ReportType="OnOff segment report" NumberOfDays="7" Periodicity="Every day" HtmlFormat="true"/>
+    <TS3_22_1 Geozone="Automation" ReportType="OnOff segment report" NumberOfDays="7" Periodicity="Every day" HtmlFormat="false"/>
+    <TS3_25_1 Geozone="Real Time Control Area" ReportType="Low Power Factor Report" Periodicity="Every day" MailEnabled="true" MailFormat="Html" ReportMailBody="true"  DeviceCategories="StreetLight" Recurse="true"/>
+    <TS3_26_1 Geozone="Real Time Control Area" ReportType="Day Burner Report" Periodicity="Every day" MailEnabled="true" MailFormat="Html" ReportMailBody="true"  DeviceCategories="StreetLight" Recurse="true"/>
+    <TS3_27_1 Geozone="Real Time Control Area" ReportType="Over 140V Voltage Report" Periodicity="Every day" MailEnabled="true" MailFormat="Html" ReportMailBody="true"  DeviceCategories="StreetLight" Recurse="true"/>
+    <TS3_28_1 Geozone="Real Time Control Area" ReportType="Under 110V Voltage Report" Periodicity="Every day" MailEnabled="true" MailFormat="Html" ReportMailBody="true"  DeviceCategories="StreetLight" Recurse="true"/>
+    <TS3_29_1 Geozone="Real Time Control Area" ReportType="Over Voltage Report" Periodicity="Every day" MailEnabled="true" MailFormat="Html" ReportMailBody="true"  DeviceCategories="StreetLight" Recurse="true"/>
+    <TS3_30_1 Geozone="Real Time Control Area" ReportType="Under Voltage Report" Periodicity="Every day" MailEnabled="true" MailFormat="Html" ReportMailBody="true"  DeviceCategories="StreetLight" Recurse="true"/>
+    <TS3_31_1 Geozone="Real Time Control Area" ReportType="Over Wattage Report" Periodicity="Every day" MailEnabled="true" MailFormat="Html" ReportMailBody="true"  DeviceCategories="StreetLight" Recurse="true"/>
+    <TS3_32_1 Geozone="Real Time Control Area" ReportType="Under Wattage Report" Periodicity="Every day" MailEnabled="true" MailFormat="Html" ReportMailBody="true"  DeviceCategories="StreetLight" Recurse="true"/>
+    <TS3_33_1 Geozone="Real Time Control Area" ReportType="No data ever received" Periodicity="Every day" MailEnabled="true" MailFormat="Html" ReportMailBody="true"  DeviceCategories="StreetLight" Recurse="true"/>
+    <TS3_23_1 Geozone="Real Time Control Area" ReportType="Latency Report" Periodicity="Every day" MailEnabled="true" MailFormat="Html" ReportMailBody="true"  DeviceCategories="StreetLight" Recurse="true" Command="Lamp level command" Feedback="Lamp level feedback" ModeMeaningStrId="Lamp command mode" FromToMode="Last hours" FromLastHours="1 hour" CommandValue="0"/>
+    <TS3_24_1 Geozone="Real Time Control Area" ReportType="Latency Report" Periodicity="Every day" MailEnabled="true" MailFormat="Html" ReportMailBody="true"  DeviceCategories="StreetLight" Recurse="true" Command="Lamp level command" Feedback="Lamp level feedback" ModeMeaningStrId="Lamp command mode" FromToMode="Last hours" FromLastHours="1 hour" CommandValue="100"/>
+    <TS3_34_1 Geozone="Real Time Control Area" ReportType="UMSUG report"  Periodicity="Every day" DownFailures="Lamp Failure"/>
+    <LocationChange ControllerId ="vietnamcontroller" ReportType="Location change report" Periodicity="Every day" MailEnabled="true" MailFormat="CSV" ReportMailBody="true" DeviceCategories="StreetLight" Recurse="true" Period="1 week" />
+    <GDVRunOnce Geozone="GeoZones" ReportType="Generic device values [Run Once]" MailEnabled="true" MailFormat="CSV" ReportMailBody="true" FtpFormat="CSV" />
+    <Mail From="qa@streetlightmonitoring.com" Contacts="Default Test User slv-hcmcqa@qualitusvn.com"  />
+    <Ftp Host="slvci-01.eng.ssnsgs.net" SFTPMode="true" User="slvhcmc" Password="SLV2017" FileName="" Directory="drop-box/" PassiveMode="true" Enabled="true" Format="Html" />
+  </Reports> 
+</TC3>

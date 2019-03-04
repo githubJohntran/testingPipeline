@@ -1,0 +1,89 @@
+<TC2>
+  <TS2_3_4>
+    <ParentGeozone>Automation\Free Geozones</ParentGeozone>
+    <DestGeozone>Automation</DestGeozone>
+  </TS2_3_4>
+  <TS2_4_2>
+    <ParentGeozone>Automation\Free Geozones</ParentGeozone>
+  </TS2_4_2> 
+  <TS2_12_1>
+    <Search attribute="Name" operator="Contains" completeValue="Telematics 01" incompleteValue="LP0" inexistingValue="InexistingTest" />
+    <Search attribute="Unique address" operator="Contains" completeValue="3AA8D05E4006" incompleteValue="A8D05E4004" inexistingValue="InexistingTest" />
+    <Search attribute="Identifier" operator="Contains" completeValue="lamp04" incompleteValue="lp0" inexistingValue="InexistingTest" />
+  </TS2_12_1>  
+  <TS2_21_1>
+    <Step1>
+      <ControllerId>vietnamcontroller</ControllerId>
+      <ControllerName>Vietnam Controller</ControllerName>
+      <Address1>307 Nguyen Van Troi Street</Address1>
+      <Address2>Description Address2</Address2>
+      <City>HCM City</City>
+      <Zipcode>70000</Zipcode>
+      <IsLampPositionCorrect>Yes</IsLampPositionCorrect>
+    </Step1>
+  </TS2_21_1>
+  <TS2_21_2>
+    <Step1>
+      <ControllerId>vietnamcontroller</ControllerId>
+      <ControllerName>Vietnam Controller</ControllerName>
+      <Address1>307 Nguyen Van Troi Street</Address1>
+      <Address2>Description Address2</Address2>
+      <City>HCM City</City>
+      <Zipcode>70000</Zipcode>
+      <IsLampPositionCorrect>No</IsLampPositionCorrect>
+    </Step1>
+    <Reason>NOT FOUND</Reason>
+  </TS2_21_2>
+  <TS2_21_3>
+    <Step1>
+      <ControllerId>vietnamcontroller</ControllerId>
+      <ControllerName>Vietnam Controller</ControllerName>
+      <Address1>307 Nguyen Van Troi Street</Address1>
+      <Address2>Description Address2</Address2>
+      <City>HCM City</City>
+      <Zipcode>70000</Zipcode>
+      <IsLampPositionCorrect>Can't verify</IsLampPositionCorrect>
+    </Step1>
+    <Reason></Reason>
+  </TS2_21_3>
+  <TS2_22_1>
+    <Step1>
+      <TypeOfEquipment>SSN Cimcon Dim Photocell[Lamp #0]</TypeOfEquipment>
+      <ControllerId>vietnamcontroller</ControllerId>
+      <ControllerName>Vietnam Controller</ControllerName>
+      <LampIsAccessible>Yes</LampIsAccessible>
+    </Step1>    
+    <Step3>
+      <LampCameOn>true</LampCameOn>
+    </Step3>
+  </TS2_22_1>
+  <TS2_22_2>
+    <Step1>
+      <LampIsAccessible>No</LampIsAccessible>
+    </Step1>
+    <Step2>
+      <Reason>OTHER</Reason>
+    </Step2>
+  </TS2_22_2>
+  <TS2_22_3>
+    <Step1>
+      <LampIsAccessible>Can't verify</LampIsAccessible>
+    </Step1>
+    <Step2>
+      <Reason>OTHER</Reason>
+    </Step2>
+  </TS2_22_3>
+  <TS2_25_1>
+    <SearchName>Auto Search</SearchName>
+    <GeoZones>
+      <GeoZone>GeoZones\Automation\All device types</GeoZone>
+      <GeoZone>GeoZones\Real Time Control Area</GeoZone>
+      <GeoZone>GeoZones\Energy Data Area</GeoZone>
+      <GeoZone>GeoZones\Alarm Area</GeoZone>
+    </GeoZones>
+    <ExportFilePattern>Advanced_Search*.csv</ExportFilePattern>
+  </TS2_25_1>
+  <SLV_2019>
+    <RowsPerPage>200</RowsPerPage>
+  </SLV_2019>
+</TC2>
