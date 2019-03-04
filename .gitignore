@@ -1,4 +1,7 @@
 
 testingPipeline/packages
+packages
 .vs/StreetlightVision/v15/sqlite3/storage.ide
 testingPipeline/StreetlightVision/bin/Debug
+StreetlightVision/bin
+StreetlightVision/obj
