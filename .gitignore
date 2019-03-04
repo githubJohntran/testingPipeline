@@ -5,3 +5,5 @@ packages
 testingPipeline/StreetlightVision/bin/Debug
 StreetlightVision/bin
 StreetlightVision/obj
+StreetlightVision/bin/Debug/nunit_random_seed.tmp
+StreetlightVision/obj/Debug/StreetlightVision.csproj.FileListAbsolute.txt
